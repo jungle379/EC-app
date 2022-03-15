@@ -2,16 +2,23 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
-export default function Home() {
-  return (
-    <div>
-      <Head>
-        <title>top page</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Header />
-      <main></main>
-      <Footer />
-    </div>
-  );
-}
+const Home = () => (
+  <>
+    <Head>
+      <title>トップページ</title>
+      <link rel="icon" href="/favicon.ico" />
+    </Head>
+    <Header />
+    <main>
+      <div className="border-x-2">
+        <input type="text" />
+      </div>
+      <div>
+        <button>ボタン</button>
+      </div>
+    </main>
+    <Footer />
+  </>
+);
+
+export default Home;
