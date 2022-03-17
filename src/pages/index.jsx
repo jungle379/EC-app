@@ -10,12 +10,9 @@ const Home = () => (
     </Head>
     <Header />
     <main>
-      <div className="border-x-2">
-        <input type="text" />
-      </div>
-      <div>
-        <button>ボタン</button>
-      </div>
+      <div></div>
+      <div></div>
+      <div></div>
     </main>
     <Footer />
   </>
