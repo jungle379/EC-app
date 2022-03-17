@@ -23,7 +23,7 @@ const SignupLink = () => (
 
 const Header = () => (
   <>
-    <div className="flex justify-between mx-10 my-10 h-20">
+    <div className="flex justify-between px-10 my-10">
       <div>ロゴ</div>
       <div className="flex justify-end">
         <div className="pr-5">
@@ -42,6 +42,14 @@ const Header = () => (
             <UserButton />
           </SignedIn>
         </div>
+      </div>
+    </div>
+    <div className="flex justify-center">
+      <div className="border-2 border-gray-600 mx-20">
+        <input className="w-[600px] h-[25px]" type="text" />
+      </div>
+      <div className="mx-20 border-2 border-gray-500">
+        <button>ボタン</button>
       </div>
     </div>
   </>
