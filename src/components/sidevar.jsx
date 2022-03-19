@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Footer = () => (
+const Sidevar = () => (
   <>
     <div className="">
       <Link href="/">
@@ -10,4 +10,4 @@ const Footer = () => (
   </>
 );
 
-export default Footer;
+export default Sidevar;
