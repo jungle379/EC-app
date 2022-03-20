@@ -5,7 +5,6 @@ const ClerkFeatures = () => (
   <Link href="/user">
     <a className="text-blue-600 hover:text-red-500 hover:underline">
       アカウント管理ページへ
-      {/* <img src="/icons/arrow-right.svg" /> */}
     </a>
   </Link>
 );
@@ -24,7 +23,10 @@ const SignupLink = () => (
 const Header = () => (
   <>
     <div className="flex justify-between px-10 my-10">
-      <div>ロゴ</div>
+      <div>
+        <h1 className="">ロゴ</h1>
+        <h2 className="mt-10">sidevar</h2>
+      </div>
       <div className="flex justify-end">
         <div className="pr-5">
           <SignedIn>
