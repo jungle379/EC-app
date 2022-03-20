@@ -2,9 +2,25 @@ import Link from "next/link";
 
 const Sidevar = () => (
   <>
+    <div>**さん</div>
     <div className="">
       <Link href="/">
-        <a>©️2022</a>
+        <a></a>
+      </Link>
+    </div>
+    <div className="">
+      <Link href="/">
+        <a></a>
+      </Link>
+    </div>
+    <div className="">
+      <Link href="/">
+        <a></a>
+      </Link>
+    </div>
+    <div className="">
+      <Link href="/">
+        <a></a>
       </Link>
     </div>
   </>
