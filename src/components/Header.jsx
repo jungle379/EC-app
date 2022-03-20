@@ -23,36 +23,36 @@ const SignupLink = () => (
 const Header = () => (
   <>
     <div className="flex justify-between px-10 my-10">
-      <div>
-        <h1 className="">ロゴ</h1>
-        <h2 className="mt-10">sidevar</h2>
-      </div>
-      <div className="flex justify-end">
-        <div className="pr-5">
-          <SignedIn>
-            <ClerkFeatures />
-          </SignedIn>
-          <SignedOut>
-            <SignupLink />
-          </SignedOut>
+      <div>ロゴ</div>
+      <div className="flex justify-center">
+        <div className="border-2 border-gray-600 mx-20">
+          <input className="w-[600px] h-[25px]" type="text" />
         </div>
-        <div className="mx-5">
-          <SignedOut>
-            <Link href="/sign-in">Sign in</Link>
-          </SignedOut>
-          <SignedIn>
-            <UserButton />
-          </SignedIn>
+        <div className="mx-20 border-2 border-gray-500">
+          <button>ボタン</button>
+        </div>
+        <div className="flex justify-end">
+          <div className="pr-5">
+            <SignedIn>
+              <ClerkFeatures />
+            </SignedIn>
+            <SignedOut>
+              <SignupLink />
+            </SignedOut>
+          </div>
+          <div className="mx-5">
+            <SignedOut>
+              <Link href="/sign-in">Sign in</Link>
+            </SignedOut>
+            <SignedIn>
+              <UserButton />
+            </SignedIn>
+          </div>
         </div>
       </div>
     </div>
-    <div className="flex justify-center">
-      <div className="border-2 border-gray-600 mx-20">
-        <input className="w-[600px] h-[25px]" type="text" />
-      </div>
-      <div className="mx-20 border-2 border-gray-500">
-        <button>ボタン</button>
-      </div>
+    <div>
+      <div className="px-10">Sidevar</div>
     </div>
   </>
 );
