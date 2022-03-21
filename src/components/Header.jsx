@@ -1,33 +1,6 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
-import { slide as Menu } from "react-burger-menu";
-
-const Slide = (props) => {
-  return (
-    <Menu {...props}>
-      <div>
-        <Link href="/" className="">
-          <a>ホームページ</a>
-        </Link>
-      </div>
-      <div>
-        <Link href="/page-2" className="">
-          <a>ページ2</a>
-        </Link>
-      </div>
-      <div>
-        <Link href="/page-3" className="">
-          <a>ページ3</a>
-        </Link>
-      </div>
-      <div>
-        <Link href="/page-4" className="">
-          <a>ページ4</a>
-        </Link>
-      </div>
-    </Menu>
-  );
-};
+import Slide from "./burger";
 
 const ClerkFeatures = () => (
   <Link href="/user">
@@ -51,6 +24,7 @@ const SignupLink = () => (
 const Header = () => (
   <>
     <div className="flex justify-between px-10 my-10">
+      <Slide className="w-[10px]" />
       <div>ロゴ</div>
       <div className="flex justify-center">
         <div className="border-2 border-gray-600 mx-20">
@@ -81,7 +55,6 @@ const Header = () => (
     </div>
     <div>
       <div className="mx-10">Sidevar</div>
-      <Slide />
     </div>
   </>
 );
