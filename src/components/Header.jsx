@@ -52,7 +52,7 @@ const Header = () => (
       </div>
     </div>
     <div>
-      <div className="px-10">Sidevar</div>
+      <div className="mx-10">Sidevar</div>
     </div>
   </>
 );
