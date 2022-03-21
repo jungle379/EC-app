@@ -22,7 +22,7 @@ const SignupLink = () => (
 const Slide = (props) => {
   return (
     <Menu noOverlay width={"240px"} {...props}>
-      <div className="pr-5">
+      <div className="">
         <SignedIn>
           <ClerkFeatures />
         </SignedIn>
