@@ -24,7 +24,6 @@ const SignupLink = () => (
 const Header = () => (
   <>
     <div className="flex justify-between px-10 my-10">
-      <Slide className="w-[10px]" />
       <div>ロゴ</div>
       <div className="flex justify-center">
         <div className="border-2 border-gray-600 mx-20">
@@ -56,6 +55,7 @@ const Header = () => (
     <div>
       <div className="mx-10">Sidevar</div>
     </div>
+    <Slide />
   </>
 );
 

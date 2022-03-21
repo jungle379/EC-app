@@ -21,34 +21,36 @@ const SignupLink = () => (
 );
 const Slide = (props) => {
   return (
-    <Menu {...props}>
-      <div className="pr-5">
-        <SignedIn>
-          <ClerkFeatures />
-        </SignedIn>
-        <SignedOut>
-          <SignupLink />
-        </SignedOut>
-      </div>
-      <div>
-        <Link href="/" className="">
-          <a>ホームページ</a>
-        </Link>
-      </div>
-      <div>
-        <Link href="/page-2" className="">
-          <a>ページ2</a>
-        </Link>
-      </div>
-      <div>
-        <Link href="/page-3" className="">
-          <a>ページ3</a>
-        </Link>
-      </div>
-      <div>
-        <Link href="/page-4" className="">
-          <a>ページ4</a>
-        </Link>
+    <Menu width={"200px"} {...props}>
+      <div className="">
+        <div className="pr-5">
+          <SignedIn>
+            <ClerkFeatures />
+          </SignedIn>
+          <SignedOut>
+            <SignupLink />
+          </SignedOut>
+        </div>
+        <div>
+          <Link href="/" className="">
+            <a>ホームページ</a>
+          </Link>
+        </div>
+        <div>
+          <Link href="/page-2" className="">
+            <a>ページ2</a>
+          </Link>
+        </div>
+        <div>
+          <Link href="/page-3" className="">
+            <a>ページ3</a>
+          </Link>
+        </div>
+        <div>
+          <Link href="/page-4" className="">
+            <a>ページ4</a>
+          </Link>
+        </div>
       </div>
     </Menu>
   );
