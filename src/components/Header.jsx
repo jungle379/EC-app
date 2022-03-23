@@ -7,11 +7,11 @@ const Header = () => (
     <div className="bg-gray-200 flex justify-between px-10 py-10 z-10">
       <div>ロゴ</div>
       <div className="flex justify-center">
-        <div className="border-2 border-gray-600 mx-20">
-          <input className="w-[600px] h-[35px]" type="text" />
+        <div className="border-2 border-gray-600">
+          <input className="w-[800px] h-[35px]" type="text" />
         </div>
-        <div className="mx-20 border-2 border-gray-500">
-          <button>ボタン</button>
+        <div className="mr-20 border-2 border-gray-500 h-[40px]">
+          <button className="py-[5px]">ボタン</button>
         </div>
         <div className="flex justify-end">
           <div className="mx-5">
@@ -29,7 +29,7 @@ const Header = () => (
       <button onClick={Slide} className="mx-10">
         Sidevar
       </button>
-      <Slide className="mx-10 my-10" />
+      {/* <Slide className="mx-10 my-10" /> */}
     </div>
   </>
 );
