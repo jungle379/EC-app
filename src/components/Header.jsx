@@ -29,7 +29,7 @@ const Header = () => (
       <button onClick={Slide} className="mx-10">
         Sidevar
       </button>
-      {/* <Slide className="mx-10 my-10" /> */}
+      <Slide className="mx-10 my-10" />
     </div>
   </>
 );
