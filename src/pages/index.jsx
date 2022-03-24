@@ -10,7 +10,7 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Header />
-    <main className="h-screen">
+    <main className="h-screen bg-green-100">
       <div></div>
       <div></div>
       <div></div>

@@ -4,7 +4,7 @@ import Slide from "./burger";
 
 const Header = () => (
   <>
-    <div className="bg-gray-200 flex justify-between px-10 py-10 z-10">
+    <div className="bg-gray-200 flex justify-between px-10 py-10">
       <div>ロゴ</div>
       <div className="flex justify-center">
         <div className="border-2 border-gray-600">
@@ -25,7 +25,7 @@ const Header = () => (
         </div>
       </div>
     </div>
-    <div>
+    <div className="bg-gray-200">
       <button onClick={Slide} className="mx-10">
         Sidevar
       </button>
