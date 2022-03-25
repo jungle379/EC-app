@@ -54,6 +54,11 @@ const Slide = (props) => {
   );
 };
 
+const ButtonClick = (e) => {
+  e.preventDefault();
+  alert("alert");
+};
+
 const Header = () => (
   <>
     <div className="bg-gray-200 flex justify-between px-10 py-10">
@@ -70,7 +75,9 @@ const Header = () => (
           <input className="w-[800px] h-[35px]" type="text" />
         </div>
         <div className="mr-20 border-2 border-gray-500 h-[40px]">
-          <button className="bg-orange-400 h-[37px]">ボタン</button>
+          <button onClick={ButtonClick} className="bg-orange-400 h-[37px]">
+            ボタン
+          </button>
         </div>
         <div className="flex justify-end">
           <div className="mx-5">
@@ -88,7 +95,7 @@ const Header = () => (
       <button onClick={Slide} className="mx-10">
         Sidevar
       </button>
-      <Slide />
+      {/* <Slide /> */}
     </div>
   </>
 );
