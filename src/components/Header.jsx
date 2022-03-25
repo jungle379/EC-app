@@ -88,6 +88,7 @@ const Header = () => (
       <button onClick={Slide} className="mx-10">
         Sidevar
       </button>
+      <Slide />
     </div>
   </>
 );
