@@ -59,8 +59,8 @@ const Header = () => (
     <div className="bg-gray-200 flex justify-between px-10 py-10">
       <div>ロゴ</div>
       <div className="flex justify-center">
-        <div>(ジャンルのラジオボタン)</div>
         <div className="border-2 border-gray-600">
+          <input className="mr-[2px] h-[37px]" type="select" />
           <input className="w-[800px] h-[35px]" type="text" />
         </div>
         <div className="mr-20 border-2 border-gray-500 h-[40px]">
