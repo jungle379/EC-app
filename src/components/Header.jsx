@@ -60,7 +60,13 @@ const Header = () => (
       <div>ロゴ</div>
       <div className="flex justify-center">
         <div className="border-2 border-gray-600">
-          <input className="mr-[2px] h-[37px]" type="select" />
+          <select className="mr-[2px] h-[37px]">
+            <option value="fasion">ファッション</option>
+            <option value="audio">音楽</option>
+            <option value="health">ヘルス・ビューティー</option>
+            <option value="book">書籍</option>
+            <option value="music">音楽</option>
+          </select>
           <input className="w-[800px] h-[35px]" type="text" />
         </div>
         <div className="mr-20 border-2 border-gray-500 h-[40px]">
