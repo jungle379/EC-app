@@ -56,7 +56,7 @@ const Slide = (props) => {
 
 const ButtonClick = (e) => {
   e.preventDefault();
-  alert("alert");
+  alert("ダミーリアクション");
 };
 
 const Header = (props) => (
@@ -71,6 +71,8 @@ const Header = (props) => (
             <option value="health">ヘルス・ビューティー</option>
             <option value="book">書籍</option>
             <option value="music">音楽</option>
+            <option value="good">雑貨</option>
+            <option value="others">その他</option>
           </select>
           <input className="w-[800px] h-[35px]" type="text" />
         </div>
