@@ -59,7 +59,7 @@ const ButtonClick = (e) => {
   alert("alert");
 };
 
-const Header = () => (
+const Header = (props) => (
   <>
     <div className="bg-gray-200 flex justify-between px-10 py-10">
       <div>ロゴ</div>
@@ -75,7 +75,10 @@ const Header = () => (
           <input className="w-[800px] h-[35px]" type="text" />
         </div>
         <div className="mr-20 border-2 border-gray-500 h-[40px]">
-          <button onClick={ButtonClick} className="bg-orange-400 h-[37px]">
+          <button
+            onClick={ButtonClick}
+            className="bg-orange-400 h-[37px] font-bold"
+          >
             ボタン
           </button>
         </div>

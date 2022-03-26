@@ -2,7 +2,9 @@ import Head from "next/head";
 
 const Privacy = () => (
   <>
-    <Head>プライバシー規約</Head>
+    <Head>
+      <title>プライバシー規約</title>
+    </Head>
     <div>規約</div>
   </>
 );

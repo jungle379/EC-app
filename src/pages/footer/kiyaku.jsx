@@ -2,7 +2,9 @@ import Head from "next/head";
 
 const Kiyaku = () => (
   <>
-    <Head>規約</Head>
+    <Head>
+      <title>規約</title>
+    </Head>
     <div>規約</div>
   </>
 );

@@ -2,7 +2,9 @@ import Head from "next/head";
 
 const Person = () => (
   <>
-    <Head>パーソナライズ広告規約</Head>
+    <Head>
+      <title>パーソナライズ広告規約</title>
+    </Head>
     <div>規約</div>
   </>
 );
