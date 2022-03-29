@@ -15,6 +15,7 @@ const Header = () => (
       <div className="flex justify-center">
         <div className="border-2 border-gray-600">
           <select className="mr-[2px] h-[37px]">
+            <option value="">---</option>
             <option value="fasion">ファッション</option>
             <option value="audio">音楽</option>
             <option value="health">ヘルス・ビューティー</option>
