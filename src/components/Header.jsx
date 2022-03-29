@@ -1,138 +1,14 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
-import { slide as Menu } from "react-burger-menu";
-import { useState } from "react";
-import { Burger } from "@mantine/core";
-
-function Demo() {
-  const [opened, setOpened] = useState(false);
-  const title = opened ? "Close navigation" : "Open navigation";
-  const Slide = (props) => {
-    <div id="outer-container">
-      <div id="menu-wrap">
-        <Menu
-          pageWrapId="page-wrap"
-          outerContainerId="outer-container"
-          isOpen={menuIsOpen}
-          noOverlay={menuIsSticky}
-          disableCloseOnEsc={menuIsSticky}
-          width={"240px"}
-          {...props}
-        >
-          <div>
-            <SignedIn>
-              <ClerkFeatures />
-            </SignedIn>
-            <SignedOut>
-              <SignupLink />
-            </SignedOut>
-          </div>
-          <div>
-            <Link href="/" className="">
-              <a>ホームページ</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/page-2" className="">
-              <a>ページ2</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/page-3" className="">
-              <a>ページ3</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/page-4" className="">
-              <a>ページ4</a>
-            </Link>
-          </div>
-        </Menu>
-      </div>
-    </div>;
-  };
-
-  return (
-    <Burger
-      opened={opened}
-      onClick={() => setOpened((Slide) => !Slide)}
-      title={title}
-    />
-  );
-}
-
-const ClerkFeatures = () => (
-  <Link href="/user">
-    <a className="text-blue-600 hover:text-red-500 hover:underline">
-      アカウント管理ページへ
-    </a>
-  </Link>
-);
-
-const SignupLink = () => (
-  <Link href="/sign-up">
-    <a className="">
-      <img src="/icons/user-plus.svg" />
-      <div className="">
-        <img src="/icons/arrow-right.svg" />
-      </div>
-    </a>
-  </Link>
-);
-
-const Slide = (props) => {
-  return (
-    <div id="outer-container">
-      <div id="menu-wrap">
-        <Menu
-          pageWrapId="page-wrap"
-          outerContainerId="outer-container"
-          isOpen={menuIsOpen}
-          noOverlay={menuIsSticky}
-          disableCloseOnEsc={menuIsSticky}
-          width={"240px"}
-          {...props}
-        >
-          <div>
-            <SignedIn>
-              <ClerkFeatures />
-            </SignedIn>
-            <SignedOut>
-              <SignupLink />
-            </SignedOut>
-          </div>
-          <div>
-            <Link href="/" className="">
-              <a>ホームページ</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/page-2" className="">
-              <a>ページ2</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/page-3" className="">
-              <a>ページ3</a>
-            </Link>
-          </div>
-          <div>
-            <Link href="/page-4" className="">
-              <a>ページ4</a>
-            </Link>
-          </div>
-        </Menu>
-      </div>
-    </div>
-  );
-};
+import Demo from "./Demo";
+import Slide from "./Burger";
 
 const ButtonClick = (e) => {
   e.preventDefault();
   alert("ダミーリアクション");
 };
 
-const Header = (props) => (
+const Header = () => (
   <>
     <div className="bg-gray-200 flex justify-between px-10 py-10">
       <div>ロゴ</div>
@@ -171,6 +47,7 @@ const Header = (props) => (
     </div>
     <div className="bg-gray-200 px-10">
       <Demo />
+      {/* <Slide /> */}
     </div>
   </>
 );

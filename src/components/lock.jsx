@@ -6,7 +6,7 @@ function Lock() {
   const [scrollLocked, setScrollLocked] = useScrollLock();
 
   return (
-    <Group position="left">
+    <Group position="center">
       <Button
         onClick={() => setScrollLocked((c) => !c)}
         variant="outline"
