@@ -34,6 +34,11 @@ const Header = () => (
           </button>
         </div>
         <div className="flex justify-end">
+          <div>
+            <Link href="/">
+              <a>カート</a>
+            </Link>
+          </div>
           <div className="mx-5">
             <SignedOut>
               <Link href="/sign-in">Sign in</Link>

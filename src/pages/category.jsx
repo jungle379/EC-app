@@ -8,8 +8,18 @@ const Category = () => (
     </Head>
     <div></div>
     <div>
+      <Link href="../category/fashion">
+        <a>ファッション</a>
+      </Link>
+    </div>
+    <div>
       <Link href="">
-        <a></a>
+        <a>書籍</a>
+      </Link>
+    </div>
+    <div>
+      <Link href="../category/foods">
+        <a>食品</a>
       </Link>
     </div>
     <div></div>
