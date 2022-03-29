@@ -1,7 +1,6 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
-import Demo from "./Demo";
-import Slide from "./Burger";
+import Hamburger from "./Burger";
 
 const ButtonClick = (e) => {
   e.preventDefault();
@@ -47,8 +46,7 @@ const Header = () => (
       </div>
     </div>
     <div className="bg-gray-200 px-10">
-      <Demo />
-      {/* <Slide /> */}
+      <Hamburger />
     </div>
   </>
 );
