@@ -45,7 +45,7 @@ const Header = () => (
         </div>
       </div>
     </div>
-    <div className="bg-gray-200 px-10">
+    <div className="px-10 bg-green-100">
       <Hamburger />
     </div>
   </>
