@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Lock from "../components/Lock";
+// import Lock from "../components/Lock";
 
 const Home = () => (
   <>
@@ -13,9 +13,9 @@ const Home = () => (
     <main className="h-screen bg-green-100">
       <div></div>
       <div></div>
-      <div className="px-10 py-10">
+      {/* <div className="px-10 py-10">
         <Lock />
-      </div>
+      </div> */}
     </main>
     <Footer />
   </>

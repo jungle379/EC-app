@@ -33,10 +33,12 @@ function Hamburger(props) {
   return (
     <div onClick={clickValue}>
       {menuState ? (
-        <div>
-          <span className="absolute h-0.5 w-5 bg-black"></span>
-          <span className="absolute mt-1 h-0.5 w-5 bg-black"></span>
-        </div>
+        <>
+          <div>
+            <span className="absolute h-0.5 w-5 bg-black"></span>
+            <span className="absolute mt-1 h-0.5 w-5 bg-black"></span>
+          </div>
+        </>
       ) : (
         <>
           <div>
@@ -60,7 +62,7 @@ function Hamburger(props) {
               </Link>
             </div>
             <div>
-              <Link href="/" className="">
+              <Link href="/newest" className="">
                 <a className="text-blue-600 hover:text-red-500 hover:underline">
                   新着商品
                 </a>
