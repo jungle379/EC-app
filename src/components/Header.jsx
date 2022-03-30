@@ -35,7 +35,7 @@ const Header = () => (
         </div>
         <div className="flex justify-end">
           <div>
-            <Link href="/">
+            <Link href="/cart">
               <a>カート</a>
             </Link>
           </div>
