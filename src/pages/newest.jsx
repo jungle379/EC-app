@@ -1,5 +1,12 @@
 import Head from "next/head";
 import Link from "next/link";
+import { Pagination } from "@mantine/core";
+import { useState } from "react";
+
+function Demo() {
+  const [activePage, setPage] = useState(1);
+  return <Pagination page={activePage} onChange={setPage} total={10} />;
+}
 
 const News = () => (
   <>
@@ -23,6 +30,7 @@ const News = () => (
       </Link>
     </div>
     <div></div>
+    <Demo />
   </>
 );
 
