@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import Hamburger from "./Burger";
-import { SwitchToggle } from "./dark";
+// import { SwitchToggle } from "./dark";
 
 const ButtonClick = (e) => {
   e.preventDefault();
