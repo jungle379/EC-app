@@ -5,7 +5,7 @@ import Hamburger from "./Burger";
 
 const ButtonClick = (e) => {
   e.preventDefault();
-  alert("ダミー");
+  alert("ダミー動作です");
 };
 
 const Header = () => (
