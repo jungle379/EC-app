@@ -6,7 +6,7 @@ const Category = () => (
     <Head>
       <title>各カテゴリー</title>
     </Head>
-    <div></div>
+    <div className="text-xl">カテゴリー一覧</div>
     <div>
       <Link href="../category/fashion">
         <a>ファッション</a>
@@ -22,7 +22,21 @@ const Category = () => (
         <a>食品</a>
       </Link>
     </div>
-    <div></div>
+    <div>
+      <Link href="../category/foods">
+        <a>食品</a>
+      </Link>
+    </div>
+    <div>
+      <Link href="../category/foods">
+        <a>食品</a>
+      </Link>
+    </div>
+    <div>
+      <Link href="../category/foods">
+        <a>食品</a>
+      </Link>
+    </div>
   </>
 );
 
