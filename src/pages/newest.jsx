@@ -13,7 +13,7 @@ const News = () => (
     <Head>
       <title>新着商品</title>
     </Head>
-    <div></div>
+    <div>各ジャンルの新着商品</div>
     <div>
       <Link href="../category/fashion">
         <a>ファッション</a>
