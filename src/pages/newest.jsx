@@ -29,6 +29,16 @@ const News = () => (
         <a>食品</a>
       </Link>
     </div>
+    <div>
+      <Link href="">
+        <a>音楽</a>
+      </Link>
+    </div>
+    <div>
+      <Link href="">
+        <a>玩具</a>
+      </Link>
+    </div>
     <div></div>
     <Paginate />
   </>
