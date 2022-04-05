@@ -15,17 +15,17 @@ const News = () => (
     </Head>
     <div>各ジャンルの新着商品</div>
     <div>
-      <Link href="../category/fashion">
+      <Link href="../category/news/fashion">
         <a>ファッション</a>
       </Link>
     </div>
     <div>
-      <Link href="">
+      <Link href="../category/news/books">
         <a>書籍</a>
       </Link>
     </div>
     <div>
-      <Link href="../category/foods">
+      <Link href="../category/news/foods">
         <a>食品</a>
       </Link>
     </div>
