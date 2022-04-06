@@ -1,7 +1,10 @@
 import Head from "next/head";
+import toast, { Toaster } from "react-hot-toast";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 // import Lock from "../components/Lock";
+
+const notify = () => toast.success("TOASTを表示");
 
 const Home = () => (
   <>
@@ -11,7 +14,10 @@ const Home = () => (
     </Head>
     <Header />
     <main className="h-screen bg-green-100">
-      <div></div>
+      <div>
+        <button onClick={notify}>Make me a toast</button>
+        <Toaster />
+      </div>
       <div></div>
       {/* <div className="px-10 py-10">
         <Lock />
