@@ -18,10 +18,9 @@ const Home = () => (
         <button onClick={notify}>Make me a toast</button>
         <Toaster />
       </div>
-      <div></div>
-      {/* <div className="px-10 py-10">
+      <div className="px-10 py-10">
         <Lock />
-      </div> */}
+      </div>
     </main>
     <Footer />
   </>
