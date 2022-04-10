@@ -46,7 +46,7 @@ const Footer = () => (
           <a>各種規約</a>
         </Link>
       </h4>
-      <h5>©️2022</h5>
+      <h5>©️2022 Amazoness</h5>
     </div>
   </>
 );

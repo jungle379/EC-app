@@ -52,13 +52,6 @@ function Hamburger(props) {
                 </SignedOut>
               </div>
               <div>
-                <Link href="/" className="">
-                  <a className="text-blue-600 hover:text-red-500 hover:underline">
-                    ホームページへ
-                  </a>
-                </Link>
-              </div>
-              <div>
                 <Link href="/newest" className="">
                   <a className="text-blue-600 hover:text-red-500 hover:underline">
                     新着商品
