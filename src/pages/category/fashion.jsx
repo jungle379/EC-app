@@ -5,10 +5,13 @@ const Fashion = () => (
     <Head>
       <title>ファッション</title>
     </Head>
-    <div></div>
-    <div></div>
-    <div></div>
-    <div></div>
+    <div className="h-screen bg-green-100">
+      <div className="text-2xl">ファッション</div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <Footer />
   </>
 );
 

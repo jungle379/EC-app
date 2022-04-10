@@ -15,7 +15,7 @@ const Home = () => (
     <Header />
     <main className="h-screen bg-green-100">
       <div className="mx-10 py-20">
-        <button onClick={notify}>Make me a toast</button>
+        <button onClick={notify}>クリックする</button>
         <Toaster />
       </div>
     </main>
