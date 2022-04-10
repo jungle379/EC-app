@@ -18,10 +18,10 @@ const Home = () => (
         <button onClick={notify}>Make me a toast</button>
         <Toaster />
       </div>
-      <div className="px-10 py-10">
-        <Lock />
-      </div>
     </main>
+    <div className="px-10 py-10 bg-green-100">
+      <Lock />
+    </div>
     <Footer />
   </>
 );
