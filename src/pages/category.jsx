@@ -24,17 +24,17 @@ const Category = () => (
     </div>
     <div>
       <Link href="../category/foods">
-        <a>食品</a>
+        <a>***</a>
       </Link>
     </div>
     <div>
       <Link href="../category/foods">
-        <a>食品</a>
+        <a>***</a>
       </Link>
     </div>
     <div>
       <Link href="../category/foods">
-        <a>食品</a>
+        <a>***</a>
       </Link>
     </div>
   </>
