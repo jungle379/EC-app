@@ -4,7 +4,7 @@ import Link from "next/link";
 const Category = () => (
   <>
     <Head>
-      <title>各カテゴリー</title>
+      <title>各カテゴリーについて</title>
     </Head>
     <div className="text-xl">カテゴリー一覧</div>
     <div>
@@ -23,17 +23,17 @@ const Category = () => (
       </Link>
     </div>
     <div>
-      <Link href="../category/foods">
+      <Link href="/">
         <a>***</a>
       </Link>
     </div>
     <div>
-      <Link href="../category/foods">
+      <Link href="/">
         <a>***</a>
       </Link>
     </div>
     <div>
-      <Link href="../category/foods">
+      <Link href="/">
         <a>***</a>
       </Link>
     </div>
