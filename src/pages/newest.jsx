@@ -45,9 +45,9 @@ const News = () => (
           </Link>
         </div>
       </div>
-      <div className="flex justify-center py-10">
-        <Paginate />
-      </div>
+    </div>
+    <div className="flex justify-center py-5 bg-gray-200">
+      <Paginate />
     </div>
     <Footer />
   </>
