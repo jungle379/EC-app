@@ -19,27 +19,27 @@ const News = () => (
     <div className="bg-green-100">
       <div className="text-2xl px-10 py-10 font-bold">各ジャンルの新着商品</div>
       <div className="px-10">
-        <div className="py-5">
+        <div className="py-5 hover:text-red-500 hover:underline">
           <Link href="../category/news/fashion">
             <a>ファッション</a>
           </Link>
         </div>
-        <div className="py-5">
+        <div className="py-5 hover:text-red-500 hover:underline">
           <Link href="../category/news/books">
             <a>書籍</a>
           </Link>
         </div>
-        <div className="py-5">
+        <div className="py-5 hover:text-red-500 hover:underline">
           <Link href="../category/news/foods">
             <a>食品</a>
           </Link>
         </div>
-        <div className="py-5">
+        <div className="py-5 hover:text-red-500 hover:underline">
           <Link href="">
             <a>音楽</a>
           </Link>
         </div>
-        <div className="py-5">
+        <div className="py-5 hover:text-red-500 hover:underline">
           <Link href="">
             <a>玩具</a>
           </Link>
