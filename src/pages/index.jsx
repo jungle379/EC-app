@@ -13,7 +13,7 @@ const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Header />
-    <div className="h-screen bg-green-100">
+    <div className="h-auto bg-green-100">
       <div className="mx-10 py-20">
         <button onClick={notify}>クリックする</button>
         <Toaster />

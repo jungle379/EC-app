@@ -23,6 +23,12 @@ const Footer = () => (
           <h3>test7</h3>
           <h4>test8</h4>
         </div>
+        <div className="flex justify-evenly py-5 text-xs">
+          <h1>test9</h1>
+          <h2>test10</h2>
+          <h3>test11</h3>
+          <h4>test12</h4>
+        </div>
       </div>
     </div>
     <div className="bg-gray-900 text-white flex justify-center h-[20px] py-10">
