@@ -33,11 +33,6 @@ function Hamburger(props) {
   return (
     <div onClick={clickValue}>
       {menuState ? (
-        <div>
-          <span className="absolute h-0.5 w-5 bg-black"></span>
-          <span className="absolute mt-1 h-0.5 w-5 bg-black"></span>
-        </div>
-      ) : (
         <>
           <div>
             <span className="absolute transform rotate-45 mt-0.5 h-0.5 w-5 bg-black"></span>
@@ -73,6 +68,16 @@ function Hamburger(props) {
                 </Link>
               </div>
             </div>
+          </div>
+        </>
+      ) : (
+        <>
+          <div className="flex justify-start">
+            <div>
+              <span className="absolute h-0.5 w-5 bg-black"></span>
+              <span className="absolute mt-1 h-0.5 w-5 bg-black"></span>
+            </div>
+            <div className="px-5">すべて</div>
           </div>
         </>
       )}
