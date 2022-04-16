@@ -9,7 +9,7 @@ const Cart = () => (
       <title>カート内</title>
     </Head>
     <Header />
-    <div>カート</div>
+    <div className="h-auto bg-green-100">カート</div>
     <div>
       <Link href="">
         <a></a>

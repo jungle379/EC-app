@@ -9,7 +9,7 @@ const Footer = () => (
         </Link>
       </h1>
     </div>
-    <div className="bg-gray-700 text-white py-10">
+    <div className="bg-gray-700 text-white py-5">
       <div>
         <div className="flex justify-evenly py-5 text-xs">
           <h1>test1</h1>
