@@ -8,8 +8,12 @@ const ButtonClick = (e) => {
   alert("ダミー動作です");
 };
 
-const Header = () => (
-  <>
+const Header = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    const q = event.currentTarger.query.value;
+  };
+  return (
     <div>
       <div className="bg-gray-200 flex justify-between px-10 py-10">
         <div className="text-xl font-bold">Amazoness</div>
@@ -25,15 +29,17 @@ const Header = () => (
               <option value="good">雑貨</option>
               <option value="others">その他</option>
             </select>
-            <input className="w-[800px] h-[35px]" type="text" />
           </div>
           <div className="mr-20 border-2 border-gray-500 h-[40px]">
-            <button
-              onClick={ButtonClick}
-              className="bg-orange-400 h-[37px] font-bold"
-            >
-              ボタン
-            </button>
+            <form onSubmit={handleSubmit}>
+              <input className="w-[800px] h-[35px]" type="text" />
+              <button
+                onClick={ButtonClick}
+                className="bg-orange-400 h-[37px] font-bold"
+              >
+                ボタン
+              </button>
+            </form>
           </div>
           <div className="flex justify-end">
             <div>
@@ -57,7 +63,7 @@ const Header = () => (
         <Hamburger />
       </div>
     </div>
-  </>
-);
+  );
+};
 
 export default Header;
