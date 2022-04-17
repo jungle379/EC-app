@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
-import Hamburger from "./Burger";
 
 const ButtonClick = (e) => {
   e.preventDefault();
@@ -14,7 +13,7 @@ const Header = () => {
   };
   return (
     <div>
-      <div className="bg-gray-200 flex justify-between px-10 py-10">
+      <div className="bg-gray-200 flex justify-between px-5 py-10">
         <div className="text-xl font-bold">
           <Link href="/">
             <a>Amazoness</a>
@@ -60,9 +59,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="px-10 bg-green-100">
-        <Hamburger />
       </div>
     </div>
   );

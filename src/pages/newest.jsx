@@ -44,6 +44,16 @@ const News = () => (
             <a>玩具</a>
           </Link>
         </div>
+        {/* <div className="py-5 hover:text-red-500 hover:underline">
+          <Link href="/">
+            <a>***</a>
+          </Link>
+        </div>
+        <div className="py-5 hover:text-red-500 hover:underline">
+          <Link href="/">
+            <a>***</a>
+          </Link>
+        </div> */}
       </div>
     </div>
     <div className="flex justify-center py-5 bg-gray-200">
