@@ -15,7 +15,11 @@ const Header = () => {
   return (
     <div>
       <div className="bg-gray-200 flex justify-between px-10 py-10">
-        <div className="text-xl font-bold">Amazoness</div>
+        <div className="text-xl font-bold">
+          <Link href="/">
+            <a>Amazoness</a>
+          </Link>
+        </div>
         <div className="flex justify-center">
           <div className="border-2 border-gray-600">
             <select className="mr-[2px] h-[37px]">
