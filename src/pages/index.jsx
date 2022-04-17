@@ -5,7 +5,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Lock from "../components/Lock";
 import { Checkbox } from "@mantine/core";
-import Demo from "../components/Mailform";
 
 const notify = () => toast.success("TOASTを表示");
 
@@ -30,7 +29,6 @@ const Home = () => (
           <Checkbox label="I agree to sell my privacy" />
         </div>
       </div>
-      <Demo />
     </main>
     <Footer />
   </>
