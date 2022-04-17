@@ -61,6 +61,13 @@ function Hamburger(props) {
                 </Link>
               </div>
               <div>
+                <Link href="/inquery" className="">
+                  <a className="text-blue-600 hover:text-red-500 hover:underline">
+                    お問い合わせ
+                  </a>
+                </Link>
+              </div>
+              <div>
                 <Link href="/" className="">
                   <a className="text-blue-600 hover:text-red-500 hover:underline">
                     ログアウト

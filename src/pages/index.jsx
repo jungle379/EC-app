@@ -4,6 +4,8 @@ import Hamburger from "../components/Burger";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import Lock from "../components/Lock";
+import { Checkbox } from "@mantine/core";
+import Demo from "../components/Mailform";
 
 const notify = () => toast.success("TOASTを表示");
 
@@ -18,15 +20,17 @@ const Home = () => (
       <div className="px-10 bg-green-100">
         <Hamburger />
       </div>
-      <div>
+      <div className="">
         <div className="mx-10 py-20">
           <button onClick={notify}>クリックする</button>
           <Toaster />
         </div>
         <div className="px-10 py-10 bg-green-100">
           <Lock />
+          <Checkbox label="I agree to sell my privacy" />
         </div>
       </div>
+      <Demo />
     </main>
     <Footer />
   </>
