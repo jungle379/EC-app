@@ -9,13 +9,15 @@ const Cart = () => (
       <title>カート内</title>
     </Head>
     <Header />
-    <div className="h-auto bg-green-100">カート</div>
-    <div>
-      <Link href="">
-        <a></a>
-      </Link>
+    <div className="h-auto bg-green-100">
+      <div className="text-xl">カート</div>
+      <div>
+        <Link href="">
+          <a></a>
+        </Link>
+      </div>
+      <div></div>
     </div>
-    <div></div>
     <Footer />
   </>
 );
