@@ -29,17 +29,17 @@ const Category = () => (
         </div>
         <div className="py-5">
           <Link href="/">
-            <a>***</a>
+            <a>DVD/BD</a>
           </Link>
         </div>
         <div className="py-5">
           <Link href="/">
-            <a>***</a>
+            <a>玩具</a>
           </Link>
         </div>
         <div className="py-5">
           <Link href="/">
-            <a>***</a>
+            <a>音楽</a>
           </Link>
         </div>
       </div>
