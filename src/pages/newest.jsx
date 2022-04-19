@@ -4,56 +4,40 @@ import { Pagination } from "@mantine/core";
 import { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import { client } from "../libs/client";
 
 function Paginate() {
   const [activePage, setPage] = useState(1);
   return <Pagination page={activePage} onChange={setPage} total={10} />;
 }
 
-const News = () => (
+export const getStaticProps = async () => {
+  const data = await client.getList({ endpoint: "news" });
+  return {
+    props: data,
+  };
+};
+const News = (props) => (
   <>
     <Head>
       <title>新着商品</title>
     </Head>
     <Header />
     <div className="bg-green-100 h-auto">
-      <div className="text-2xl px-10 py-10 font-bold">各ジャンルの新着商品</div>
-      <div className="px-10">
-        <div className="py-5 hover:text-red-500 hover:underline">
-          <Link href="../category/news/fashion">
-            <a>ファッション</a>
-          </Link>
-        </div>
-        <div className="py-5 hover:text-red-500 hover:underline">
-          <Link href="../category/news/books">
-            <a>書籍</a>
-          </Link>
-        </div>
-        <div className="py-5 hover:text-red-500 hover:underline">
-          <Link href="../category/news/foods">
-            <a>食品</a>
-          </Link>
-        </div>
-        <div className="py-5 hover:text-red-500 hover:underline">
-          <Link href="/">
-            <a>音楽</a>
-          </Link>
-        </div>
-        <div className="py-5 hover:text-red-500 hover:underline">
-          <Link href="/">
-            <a>玩具</a>
-          </Link>
-        </div>
-        {/* <div className="py-5 hover:text-red-500 hover:underline">
-          <Link href="/">
-            <a>***</a>
-          </Link>
-        </div>
-        <div className="py-5 hover:text-red-500 hover:underline">
-          <Link href="/">
-            <a>***</a>
-          </Link>
-        </div> */}
+      <div className="text-2xl px-10 py-10 font-bold">新着商品</div>
+      <div>
+        <p>{`総数: ${props.totalCount}件`}</p>
+        <ul>
+          {props.contents.map((content) => {
+            return (
+              <li key={content.id}>
+                <Link href={`news/${content.id}`}>
+                  <a>{content.title}</a>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </div>
     <div className="flex justify-center py-5 bg-gray-200">
