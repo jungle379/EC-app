@@ -81,10 +81,10 @@ function Hamburger(props) {
         <>
           <div className="flex justify-start">
             <div>
-              <span className="absolute h-0.5 w-5 bg-black"></span>
-              <span className="absolute mt-1 h-0.5 w-5 bg-black"></span>
+              <span className="absolute mt-2 h-0.5 w-5 bg-black"></span>
+              <span className="absolute mt-3 h-0.5 w-5 bg-black"></span>
+              <div className="px-10">すべて</div>
             </div>
-            <div className="px-5">すべて</div>
           </div>
         </>
       )}
