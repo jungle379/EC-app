@@ -5,6 +5,7 @@ import { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { client } from "../libs/client";
+import Hamburger from "../components/Burger";
 
 function Paginate() {
   const [activePage, setPage] = useState(1);
@@ -23,21 +24,26 @@ const News = (props) => (
       <title>新着商品</title>
     </Head>
     <Header />
-    <div className="bg-green-100 h-auto">
-      <div className="text-2xl px-10 py-10 font-bold">新着商品</div>
+    <div className="bg-green-100 h-screen flex">
+      <div className="px-10 bg-green-100">
+        <Hamburger />
+      </div>
       <div>
-        <p>{`総数: ${props.totalCount}件`}</p>
-        <ul>
-          {props.contents.map((content) => {
-            return (
-              <li key={content.id}>
-                <Link href={`news/${content.id}`}>
-                  <a>{content.title}</a>
-                </Link>
-              </li>
-            );
-          })}
-        </ul>
+        <div className="text-2xl px-10 py-10 font-bold">新着商品</div>
+        <div className="px-10 text-4xl">
+          <p>{`総数: ${props.totalCount}件`}</p>
+          <ul>
+            {props.contents.map((content) => {
+              return (
+                <li key={content.id}>
+                  <Link href={`news/${content.id}`}>
+                    <a>{content.title}</a>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     </div>
     <div className="flex justify-center py-5 bg-gray-200">
