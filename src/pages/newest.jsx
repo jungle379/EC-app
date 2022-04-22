@@ -13,7 +13,10 @@ function Paginate() {
 }
 
 export const getStaticProps = async () => {
-  const data = await client.getList({ endpoint: "news" });
+  const data = await client.getList({
+    endpoint: "news",
+    queries: { q: "test2" },
+  });
   return {
     props: data,
   };
@@ -29,8 +32,8 @@ const News = (props) => (
         <Hamburger />
       </div>
       <div>
-        <div className="text-2xl px-10 py-10 font-bold">新着商品</div>
-        <div className="px-10 text-4xl">
+        <div className="text-4xl px-10 py-10 font-bold">新着商品</div>
+        <div className="px-20 text-2xl">
           <p>{`総数: ${props.totalCount}件`}</p>
           <ul>
             {props.contents.map((content) => {

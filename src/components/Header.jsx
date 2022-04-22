@@ -1,16 +1,20 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
+import { useState } from "react";
 
-const ButtonClick = (e) => {
-  e.preventDefault();
-  alert("ダミー動作です");
-};
+const Header = (props) => {
+  const [search, setSearch] = useState();
 
-const Header = () => {
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
-    const q = event.currentTarger.query.value;
+    const q = event.currentTarget.query.value;
+    const data = await fetch("/api/search");
+    const json = await data.json();
+    setSearch(json);
   };
+
+  const contents = search ? search.contents : props.contents;
+
   return (
     <div>
       <div className="bg-gray-200 flex justify-between px-5 py-10">
@@ -34,11 +38,8 @@ const Header = () => {
           </div>
           <div className="mr-20 border-2 border-gray-500 h-[40px]">
             <form onSubmit={handleSubmit}>
-              <input className="w-[800px] h-[35px]" type="text" />
-              <button
-                onClick={ButtonClick}
-                className="bg-orange-400 h-[37px] font-bold"
-              >
+              <input className="w-[800px] h-[35px]" type="text" name="query" />
+              <button className="bg-orange-400 h-[37px] font-bold">
                 ボタン
               </button>
             </form>
