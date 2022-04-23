@@ -15,7 +15,7 @@ function Paginate() {
 export const getStaticProps = async () => {
   const data = await client.getList({
     endpoint: "news",
-    queries: { q: "test2" },
+    queries: { q: "" },
   });
   return {
     props: data,

@@ -37,7 +37,7 @@ const Header = (props) => {
             </select>
           </div>
           <div className="mr-20 border-2 border-gray-500 h-[40px]">
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} autoComplete="off">
               <input className="w-[800px] h-[35px]" type="text" name="query" />
               <button className="bg-orange-400 h-[37px] font-bold">
                 ボタン
