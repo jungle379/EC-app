@@ -21,6 +21,7 @@ export const getStaticProps = async () => {
     props: data,
   };
 };
+
 const News = (props) => (
   <>
     <Head>
