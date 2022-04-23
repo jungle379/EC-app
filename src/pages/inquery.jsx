@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import Demo from "../components/Mailform";
+import Mailer from "../components/Mailform";
 
 const Inquery = () => (
   <>
@@ -14,7 +14,7 @@ const Inquery = () => (
       <div></div>
       <div></div>
       <div></div>
-      <Demo />
+      <Mailer />
     </div>
     <Footer />
   </>

@@ -1,7 +1,7 @@
 import { TextInput, Checkbox, Button, Group, Box } from "@mantine/core";
 import { useForm } from "@mantine/form";
 
-function Demo() {
+function Mailer() {
   const form = useForm({
     initialValues: {
       email: "",
@@ -37,4 +37,4 @@ function Demo() {
   );
 }
 
-export default Demo;
+export default Mailer;
