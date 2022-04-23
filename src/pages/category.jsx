@@ -6,7 +6,7 @@ import Header from "../components/Header";
 const Category = () => (
   <>
     <Head>
-      <title>各カテゴリーについて</title>
+      <title>カテゴリー</title>
     </Head>
     <div className="bg-green-100">
       <Header />
