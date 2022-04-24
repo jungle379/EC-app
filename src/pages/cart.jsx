@@ -21,13 +21,13 @@ const Cart = (props) => (
     </Head>
     <Header />
     <div className="h-auto bg-green-100">
-      <div className="text-4xl font-bold py-20 px-20">カート</div>
+      <div className="text-4xl font-bold pt-20 px-20">カート</div>
       <div>
         <Link href="">
           <a></a>
         </Link>
       </div>
-      <div className="px-20 text-2xl">
+      <div className="px-40 py-10 text-2xl">
         <p>{`総数: ${props.totalCount}件`}</p>
         <ul>
           {props.contents.map((content) => {
