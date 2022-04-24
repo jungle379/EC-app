@@ -28,7 +28,7 @@ const Cart = (props) => (
         </Link>
       </div>
       <div className="px-40 py-10 text-2xl">
-        <p>{`総数: ${props.totalCount}件`}</p>
+        <p>{`カート内に保存した商品: ${props.totalCount}品`}</p>
         <ul>
           {props.contents.map((content) => {
             return (
