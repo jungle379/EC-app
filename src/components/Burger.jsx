@@ -47,7 +47,7 @@ function Hamburger(props) {
                 </SignedOut>
               </div>
               <div>
-                <Link href="/newest" className="">
+                <Link href="/popular" className="">
                   <a className="text-blue-600 hover:text-red-500 hover:underline">
                     人気ランキング
                   </a>
