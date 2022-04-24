@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Link from "next/link";
 import Hamburger from "../components/Burger";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
