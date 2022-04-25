@@ -3,6 +3,21 @@ import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
+const ITEMS = [
+  {
+    href: "/",
+    title: "1st",
+  },
+  {
+    href: "/",
+    title: "2nd",
+  },
+  {
+    href: "/",
+    title: "3rd",
+  },
+];
+
 const Popular = () => (
   <>
     <Head>
@@ -11,6 +26,15 @@ const Popular = () => (
     <div className="bg-green-100 h-auto">
       <Header />
       <div className="text-xl py-10 px-20 font-bold">人気ランキング</div>
+      {ITEMS.map((item) => {
+        return (
+          <div>
+            <Link href={item.href}>
+              <a>{item.title}</a>
+            </Link>
+          </div>
+        );
+      })}
     </div>
     <Footer />
   </>
