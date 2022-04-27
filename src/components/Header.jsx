@@ -36,11 +36,11 @@ const Header = (props) => {
               <option value="others">その他</option>
             </select>
           </div>
-          <div className="mr-20 border-2 border-gray-500 h-[40px]">
+          <div className="mr-20 border-2 border-gray-600 h-[40px]">
             <form onSubmit={handleSubmit} autoComplete="off">
               <input className="w-[800px] h-[35px]" type="text" name="query" />
               <button className="bg-orange-400 h-[37px] font-bold">
-                ボタン
+                検索する
               </button>
             </form>
           </div>
