@@ -2,6 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Lock from "../components/Lock";
 
 const Category = () => (
   <>
@@ -41,6 +42,9 @@ const Category = () => (
           <Link href="/">
             <a>音楽</a>
           </Link>
+        </div>
+        <div className="px-10 py-10">
+          <Lock />
         </div>
       </div>
     </div>
