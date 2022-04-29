@@ -12,33 +12,33 @@ const Category = () => (
     <div className="bg-green-100">
       <Header />
       <div className="text-xl my-10 mx-10 font-bold">カテゴリー一覧</div>
-      <div className="mx-20">
-        <div className="py-5">
+      <div className="mx-20 text-2xl">
+        <div className="py-5 hover:text-red-600 hover:underline">
           <Link href="../category/fashion">
             <a>ファッション</a>
           </Link>
         </div>
-        <div className="py-5">
+        <div className="py-5 hover:text-red-600 hover:underline">
           <Link href="">
             <a>書籍</a>
           </Link>
         </div>
-        <div className="py-5">
+        <div className="py-5 hover:text-red-600 hover:underline">
           <Link href="../category/foods">
             <a>食品</a>
           </Link>
         </div>
-        <div className="py-5">
+        <div className="py-5 hover:text-red-600 hover:underline">
           <Link href="/">
             <a>DVD/BD</a>
           </Link>
         </div>
-        <div className="py-5">
+        <div className="py-5 hover:text-red-600 hover:underline">
           <Link href="/">
             <a>玩具</a>
           </Link>
         </div>
-        <div className="py-5">
+        <div className="py-5 hover:text-red-600 hover:underline">
           <Link href="/">
             <a>音楽</a>
           </Link>

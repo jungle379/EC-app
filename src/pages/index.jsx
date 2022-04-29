@@ -10,8 +10,8 @@ export const Home = () => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <Header />
-    <main className="flex h-auto bg-green-100">
-      <div className="px-10 bg-green-100">
+    <main className="flex h-screen bg-green-100">
+      <div className="px-10">
         <Hamburger />
       </div>
       <div></div>
