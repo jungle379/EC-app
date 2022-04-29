@@ -14,6 +14,9 @@ export const Home = () => (
       <div className="px-10 bg-green-100">
         <Hamburger />
       </div>
+      <div></div>
+      <div></div>
+      <div></div>
     </main>
     <Footer />
   </>
