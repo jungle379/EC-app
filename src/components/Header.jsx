@@ -28,10 +28,11 @@ const Header = (props) => {
             <select className="mr-[2px] h-[37px]">
               <option value="">---</option>
               <option value="fasion">ファッション</option>
-              <option value="audio">音楽</option>
+              <option value="music">音楽</option>
               <option value="health">ヘルス・ビューティー</option>
               <option value="book">書籍</option>
-              <option value="music">音楽</option>
+              <option value="food">食品</option>
+              <option value="DVD">DVD/BD</option>
               <option value="products">雑貨</option>
               <option value="hobby">玩具</option>
               <option value="others">その他</option>
