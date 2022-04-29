@@ -19,17 +19,17 @@ const Category = () => (
           </Link>
         </div>
         <div className="py-5 hover:text-red-600 hover:underline">
-          <Link href="/">
+          <Link href="../category/music">
             <a>音楽</a>
           </Link>
         </div>
         <div className="py-5 hover:text-red-600 hover:underline">
-          <Link href="/">
+          <Link href="../category/health">
             <a>ヘルス・ビューティー</a>
           </Link>
         </div>
         <div className="py-5 hover:text-red-600 hover:underline">
-          <Link href="">
+          <Link href="../category/books">
             <a>書籍</a>
           </Link>
         </div>
@@ -39,17 +39,17 @@ const Category = () => (
           </Link>
         </div>
         <div className="py-5 hover:text-red-600 hover:underline">
-          <Link href="/">
+          <Link href="../category/DVD">
             <a>DVD/BD</a>
           </Link>
         </div>
         <div className="py-5 hover:text-red-600 hover:underline">
-          <Link href="/">
+          <Link href="../category/products">
             <a>雑貨</a>
           </Link>
         </div>
         <div className="py-5 hover:text-red-600 hover:underline">
-          <Link href="/">
+          <Link href="../category/hobby">
             <a>玩具</a>
           </Link>
         </div>
