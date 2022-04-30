@@ -24,7 +24,7 @@ const Cart = (props) => (
       <div className="flex justify-between">
         <div className="text-4xl font-bold pt-20 px-20">カート</div>
         <div className="text-xl hover:text-red-500 py-10 px-40">
-          <Link href="/">
+          <Link href="/history">
             <a>購入履歴へ</a>
           </Link>
         </div>
