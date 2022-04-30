@@ -20,8 +20,15 @@ const Cart = (props) => (
       <title>カート内</title>
     </Head>
     <Header />
-    <div className="h-auto bg-green-100">
-      <div className="text-4xl font-bold pt-20 px-20">カート</div>
+    <div className="h-screen bg-green-100">
+      <div className="flex justify-between">
+        <div className="text-4xl font-bold pt-20 px-20">カート</div>
+        <div className="text-xl hover:text-red-500 py-10 px-40">
+          <Link href="/">
+            <a>購入履歴へ</a>
+          </Link>
+        </div>
+      </div>
       <div className="px-40 py-10 text-2xl">
         <p>{`カート内に保存した商品: ${props.totalCount}品`}</p>
         <ul>
@@ -35,11 +42,6 @@ const Cart = (props) => (
             );
           })}
         </ul>
-      </div>
-      <div className="text-0.5xl flex justify-center hover:text-red-500 py-10">
-        <Link href="/">
-          <a>購入履歴へ</a>
-        </Link>
       </div>
     </div>
     <Footer />
