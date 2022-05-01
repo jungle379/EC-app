@@ -10,7 +10,10 @@ export const Views = () => (
       <title>閲覧履歴</title>
     </Head>
     <Header />
-    <div className="px-20 py-20 font-bold">閲覧履歴</div>
+    <div className="bg-green-100 flex h-screen">
+      <Hamburger />
+      <div className="px-20 py-20 text-4xl font-bold">閲覧履歴</div>
+    </div>
     <div></div>
     <div></div>
     <Footer />
