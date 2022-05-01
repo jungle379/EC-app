@@ -17,7 +17,7 @@ export const Home = () => (
           <Hamburger />
         </div>
         <div className="px-10 py-5 hover:text-red-500">
-          <Link href="/">
+          <Link href="/points">
             <a>Amazoness_point</a>
           </Link>
         </div>
@@ -32,17 +32,17 @@ export const Home = () => (
           </Link>
         </div>
         <div className="px-10 py-5 hover:text-red-500">
-          <Link href="/history">
+          <Link href="/">
             <a>***</a>
           </Link>
         </div>
         <div className="px-10 py-5 hover:text-red-500">
-          <Link href="/history">
+          <Link href="/">
             <a>***</a>
           </Link>
         </div>
         <div className="px-10 py-5 hover:text-red-500">
-          <Link href="/history">
+          <Link href="/">
             <a>***</a>
           </Link>
         </div>
