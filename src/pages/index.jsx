@@ -12,7 +12,7 @@ export const Home = () => (
     </Head>
     <Header />
     <main className="h-screen bg-green-100">
-      <div className="flex justify-between">
+      <div className="flex justify-between h-[100px] py-5">
         <div className="px-10">
           <Hamburger />
         </div>
