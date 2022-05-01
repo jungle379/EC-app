@@ -25,7 +25,7 @@ export const getStaticProps = async () => {
 const News = (props) => (
   <>
     <Head>
-      <title>新着商品</title>
+      <title>新着</title>
     </Head>
     <Header />
     <div className="bg-green-100 h-screen flex">
