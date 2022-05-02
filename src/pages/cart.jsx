@@ -30,7 +30,7 @@ const Cart = (props) => (
         </div>
       </div>
       <div className="px-40 py-10 text-2xl">
-        <p>{`カート内に保存した商品: ${props.totalCount}品`}</p>
+        <p>{`カート内に保存した商品: ${props.totalCount}個`}</p>
         <ul>
           {props.contents.map((content) => {
             return (

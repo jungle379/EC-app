@@ -7,7 +7,7 @@ import Lock from "../components/Lock";
 const Points = () => (
   <>
     <Head>
-      <title>習得ポイント</title>
+      <title>Amazonessポイント</title>
     </Head>
     <div className="bg-green-100">
       <Header />
