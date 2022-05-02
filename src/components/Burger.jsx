@@ -5,7 +5,7 @@ import { useState } from "react";
 const ClerkFeatures = () => (
   <Link href="/user">
     <a className="text-blue-600 hover:text-red-500 hover:underline">
-      アカウント管理ページへ
+      アカウント管理
     </a>
   </Link>
 );
@@ -37,7 +37,7 @@ function Hamburger(props) {
           <div>
             <span className="absolute transform rotate-45 mt-0.5 h-0.5 w-5 bg-black"></span>
             <span className="absolute transform -rotate-45 mt-0.5 h-0.5 w-5 bg-black"></span>
-            <div className="py-10 w-[200px]">
+            <div className="py-10 w-[150px]">
               <div>
                 <SignedIn>
                   <ClerkFeatures />
@@ -83,7 +83,7 @@ function Hamburger(props) {
             <div>
               <span className="absolute mt-2 h-0.5 w-5 bg-black"></span>
               <span className="absolute mt-3 h-0.5 w-5 bg-black"></span>
-              <div className="px-10 w-[200px] hover:text-red-400">すべて</div>
+              <div className="px-10 w-[150px] hover:text-red-400">すべて</div>
             </div>
           </div>
         </>
