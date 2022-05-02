@@ -83,7 +83,7 @@ function Hamburger(props) {
             <div>
               <span className="absolute mt-2 h-0.5 w-5 bg-black"></span>
               <span className="absolute mt-3 h-0.5 w-5 bg-black"></span>
-              <div className="px-10 hover:text-red-400">すべて</div>
+              <div className="px-10 w-[200px] hover:text-red-400">すべて</div>
             </div>
           </div>
         </>

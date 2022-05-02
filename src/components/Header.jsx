@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import { useState } from "react";
+import Hamburger from "./Burger";
 
 const Header = (props) => {
   const [search, setSearch] = useState();
@@ -17,7 +18,7 @@ const Header = (props) => {
 
   return (
     <div>
-      <div className="bg-gray-200 flex justify-between px-5 py-10">
+      <div className="bg-gray-400 flex justify-between px-5 py-10">
         <div className="text-xl font-bold">
           <Link href="/">
             <a>Amazoness</a>
@@ -61,6 +62,41 @@ const Header = (props) => {
               </SignedIn>
             </div>
           </div>
+        </div>
+      </div>
+      <div className="flex justify-between h-[50px] bg-gray-200">
+        <div className="px-10 py-[15px]">
+          <Hamburger />
+        </div>
+        <div className="px-10 py-[15px] hover:text-red-500">
+          <Link href="/points">
+            <a>Amazoness_point</a>
+          </Link>
+        </div>
+        <div className="px-10 py-[15px] hover:text-red-500">
+          <Link href="/views">
+            <a>閲覧履歴</a>
+          </Link>
+        </div>
+        <div className="px-10 py-[15px] hover:text-red-500">
+          <Link href="/history">
+            <a>購入履歴</a>
+          </Link>
+        </div>
+        <div className="px-10 py-[15px] hover:text-red-500">
+          <Link href="/">
+            <a>***</a>
+          </Link>
+        </div>
+        <div className="px-10 py-[15px] hover:text-red-500">
+          <Link href="/">
+            <a>***</a>
+          </Link>
+        </div>
+        <div className="px-10 py-[15px] hover:text-red-500">
+          <Link href="/">
+            <a>***</a>
+          </Link>
         </div>
       </div>
     </div>
