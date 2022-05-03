@@ -5,7 +5,7 @@ import { Tabs } from "@mantine/core";
 import { useState } from "react";
 
 export const Views = () => {
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState();
 
   return (
     <>

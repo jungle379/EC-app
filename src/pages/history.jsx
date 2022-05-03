@@ -6,7 +6,7 @@ import { Tabs } from "@mantine/core";
 import { useState } from "react";
 
 const History = () => {
-  const [activeTab, setActiveTab] = useState(1);
+  const [activeTab, setActiveTab] = useState();
   return (
     <>
       <Head>
