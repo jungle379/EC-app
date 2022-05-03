@@ -3,7 +3,6 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Tabs } from "@mantine/core";
 import { useState } from "react";
-import { Photo, MessageCircle, Settings } from "tabler-icons-react";
 
 export const Views = () => {
   const [activeTab, setActiveTab] = useState(1);
