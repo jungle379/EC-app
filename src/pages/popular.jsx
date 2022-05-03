@@ -31,7 +31,7 @@ const Popular = () => (
     <Head>
       <title>人気ランキング</title>
     </Head>
-    <div className="bg-green-100 h-auto">
+    <div className="bg-green-100 h-screen">
       <Header />
       <div className="text-4xl py-10 px-20 font-bold">人気ランキング</div>
       {ITEMS.map((item) => {

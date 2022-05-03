@@ -12,7 +12,7 @@ const History = () => {
       <Head>
         <title>購入履歴</title>
       </Head>
-      <div className="bg-green-100">
+      <div className="bg-green-100 h-screen">
         <Header />
         <div className="text-4xl py-10 px-20 font-bold">購入履歴</div>
         <div className="px-40 py-10 h-[300px] text-2xl">

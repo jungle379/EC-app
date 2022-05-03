@@ -5,7 +5,6 @@ import { useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import { client } from "../libs/client";
-import Hamburger from "../components/Burger";
 
 function Paginate() {
   const [activePage, setPage] = useState(1);
@@ -28,10 +27,7 @@ const News = (props) => (
       <title>新着</title>
     </Head>
     <Header />
-    <div className="bg-green-100 h-screen flex">
-      <div className="px-10 bg-green-100">
-        <Hamburger />
-      </div>
+    <div className="bg-green-100 h-screen">
       <div>
         <div className="text-4xl px-10 py-10 font-bold">新着商品</div>
         <div className="px-20 text-2xl">
