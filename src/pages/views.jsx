@@ -3,6 +3,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Tabs } from "@mantine/core";
 import { useState } from "react";
+import Lock from "../components/Lock";
 
 export const Views = () => {
   const [activeTab, setActiveTab] = useState();
@@ -22,8 +23,10 @@ export const Views = () => {
             <Tabs.Tab label="先月">先月の閲覧履歴</Tabs.Tab>
           </Tabs>
         </div>
+        <div>
+          <Lock />
+        </div>
       </div>
-      <div></div>
       <div></div>
       <Footer />
     </>
