@@ -12,13 +12,17 @@ const Footer = () => (
     <div className="bg-gray-700 text-white py-5">
       <div>
         <div className="flex justify-evenly py-5 text-xs">
-          <h1>test1</h1>
+          <h1 className="text-2xl">Amazonessについて</h1>
           <h2>test2</h2>
           <h3>test3</h3>
           <h4>test4</h4>
         </div>
         <div className="flex justify-evenly py-5 text-xs">
-          <h1>test5</h1>
+          <h1>
+            <Link href="../footer2/signin">
+              <a>アカウントの作成について</a>
+            </Link>
+          </h1>
           <h2>test6</h2>
           <h3>test7</h3>
           <h4>test8</h4>
