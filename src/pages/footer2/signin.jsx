@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Stepper, Button, Group } from "@mantine/core";
+import Head from "next/head";
 
 function Demo() {
   const [active, setActive] = useState(0);
@@ -10,6 +11,9 @@ function Demo() {
 
   return (
     <>
+      <Head>
+        <title>アカウントの作成方法</title>
+      </Head>
       <div className="bg-green-50 h-screen">
         <div className="text-4xl px-20 py-20">アカウントの作成について</div>
         <Stepper active={active} onStepClick={setActive} breakpoint="sm">

@@ -11,13 +11,13 @@ const Footer = () => (
     </div>
     <div className="bg-gray-700 text-white py-5">
       <div>
-        <div className="flex justify-evenly py-5 text-xs">
+        <div className="flex justify-evenly py-[20px]">
           <h1 className="text-2xl">Amazonessについて</h1>
           <h2>test2</h2>
           <h3>test3</h3>
           <h4>test4</h4>
         </div>
-        <div className="flex justify-evenly py-5 text-xs">
+        <div className="flex justify-evenly py-[20px]">
           <h1>
             <Link href="../footer2/signin">
               <a>アカウントの作成について</a>
@@ -27,11 +27,25 @@ const Footer = () => (
           <h3>test7</h3>
           <h4>test8</h4>
         </div>
-        <div className="flex justify-evenly py-5 text-xs">
-          <h1>test9</h1>
+        <div className="flex justify-evenly py-[20px]">
+          <h1>
+            <Link href="/">
+              <a>会社概要</a>
+            </Link>
+          </h1>
           <h2>test10</h2>
           <h3>test11</h3>
           <h4>test12</h4>
+        </div>
+        <div className="flex justify-evenly py-[20px]">
+          <h1>
+            <Link href="/">
+              <a>採用情報</a>
+            </Link>
+          </h1>
+          <h2>test14</h2>
+          <h3>test15</h3>
+          <h4>test16</h4>
         </div>
       </div>
     </div>
