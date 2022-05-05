@@ -20,7 +20,7 @@ const Cart = (props) => (
       <title>カート内</title>
     </Head>
     <Header />
-    <div className="h-auto bg-green-100">
+    <div className="h-screen bg-green-100">
       <div className="flex justify-between">
         <div className="text-4xl font-bold pt-20 px-20">カート</div>
         <div className="text-xl hover:text-red-500 py-10 px-40">
@@ -42,6 +42,11 @@ const Cart = (props) => (
             );
           })}
         </ul>
+      </div>
+      <div>
+        <Link href="../buy/registar">
+          <a>購入</a>
+        </Link>
       </div>
     </div>
     <Footer />
