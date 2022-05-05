@@ -4,7 +4,7 @@ import Header from "../components/Header";
 import { Calendar } from "@mantine/dates";
 import { useState } from "react";
 
-export const Home = () => {
+const Home = () => {
   const [value, setValue] = useState(null);
   return (
     <>
