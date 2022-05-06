@@ -20,7 +20,7 @@ const Inquery = () => (
           data={[
             { value: "conpany", label: "企業について" },
             { value: "product", label: "商品について" },
-            { value: "opinion", label: "運営へのご意見" },
+            { value: "opinion", label: "ご意見" },
             { value: "other", label: "その他" },
           ]}
         />
