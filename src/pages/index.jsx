@@ -14,7 +14,7 @@ const Home = () => {
       </Head>
       <Header />
       <main className="h-screen bg-green-100">
-        <div className="py-40 flex justify-end px-40">
+        <div className="py-40 flex justify-end px-20">
           <Calendar value={value} onChange={setValue} />
         </div>
       </main>
