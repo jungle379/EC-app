@@ -4,7 +4,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Lock from "../../components/Lock";
 
-const Category = () => (
+const Recruit = () => (
   <>
     <Head>
       <title>採用について</title>
@@ -20,4 +20,4 @@ const Category = () => (
   </>
 );
 
-export default Category;
+export default Recruit;

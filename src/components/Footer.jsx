@@ -39,7 +39,7 @@ const Footer = () => (
         </div>
         <div className="flex justify-evenly py-[20px]">
           <h1>
-            <Link href="../footer2/reqruit">
+            <Link href="../footer2/recruit">
               <a>採用情報</a>
             </Link>
           </h1>
