@@ -19,7 +19,7 @@ const Header = (props) => {
   return (
     <div>
       <div className="bg-gray-400 flex justify-between px-5 py-10">
-        <div className="text-xl font-bold">
+        <div className="md:text-2xl font-bold">
           <Link href="/">
             <a>Amazoness</a>
           </Link>
@@ -70,7 +70,7 @@ const Header = (props) => {
         </div>
         <div className="px-10 py-[15px] hover:text-red-500">
           <Link href="/points">
-            <a>Amazoness_point:</a>
+            <a>Amazoness_point:*P</a>
           </Link>
         </div>
         <div className="px-10 py-[15px] hover:text-red-500">

@@ -43,7 +43,7 @@ const Cart = (props) => (
           })}
         </ul>
       </div>
-      <div>
+      <div className="flex justify-center textl-xl hover:text-red-600">
         <Link href="../buy/registar">
           <a>購入</a>
         </Link>
