@@ -10,47 +10,59 @@ const Footer = () => (
       </h1>
     </div>
     <div className="bg-gray-700 text-white py-5">
-      <div>
-        <div className="flex justify-evenly py-[20px]">
+      <div className="flex justify-evenly py-[20px]">
+        <div className="">
           <h1 className="text-2xl">Amazonessについて</h1>
-          <h2 className="text-2xl">各種お支払い</h2>
-          <h3 className="text-2xl">ビジネス</h3>
-          <h4 className="text-2xl">ヘルプ＆ガイド</h4>
-        </div>
-        <div className="flex justify-evenly py-[20px]">
-          <h1>
+          <h2>
             <Link href="../footer2/signin">
               <a>アカウントの作成について</a>
             </Link>
-          </h1>
-          <h2>test6</h2>
-          <h3>test7</h3>
-          <h4>test8</h4>
-        </div>
-        <div className="flex justify-evenly py-[20px]">
-          <h1>
+          </h2>
+          <h3>
             <Link href="/">
               <a>会社概要</a>
             </Link>
-          </h1>
-          <h2>test10</h2>
-          <h3>test11</h3>
-          <h4>test12</h4>
-        </div>
-        <div className="flex justify-evenly py-[20px]">
-          <h1>
+          </h3>
+          <h4>
             <Link href="../footer2/recruit">
               <a>採用情報</a>
             </Link>
-          </h1>
-          <h2>test14</h2>
-          <h3>test15</h3>
-          <h4>test16</h4>
+          </h4>
+        </div>
+        <div className="">
+          <h1 className="text-2xl">各種お支払い</h1>
+          <h2>
+            <Link href="/">
+              <a>クレジットカードについて</a>
+            </Link>
+          </h2>
+          <h3>
+            <Link href="/">
+              <a>アプリ決済について</a>
+            </Link>
+          </h3>
+          <h4>
+            <Link href="/">
+              <a>現金支払について</a>
+            </Link>
+          </h4>
+        </div>
+        <div className="">
+          <h1 className="text-2xl">ビジネス</h1>
+          <h2>test1</h2>
+          <h3>test2</h3>
+          <h4>test3</h4>
+        </div>
+        <div className="">
+          <h1 className="text-2xl">ヘルプ＆ガイド</h1>
+          <h2>test4</h2>
+          <h3>test5</h3>
+          <h4>test6</h4>
         </div>
       </div>
     </div>
     <div className="bg-gray-900 text-white flex justify-center h-[20px] py-10">
-      <h1 className="mx-5 border-r-2 border-r-white">
+      <h1>
         <Link href="../../footer/kiyaku">
           <a>利用規約</a>
         </Link>
