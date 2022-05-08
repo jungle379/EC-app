@@ -7,7 +7,7 @@ import Lock from "../../components/Lock";
 const Recruit = () => (
   <>
     <Head>
-      <title>採用について</title>
+      <title>リクルートページ</title>
     </Head>
     <div className="bg-green-100">
       <Header />
