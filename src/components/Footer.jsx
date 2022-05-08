@@ -62,7 +62,7 @@ const Footer = () => (
       </div>
     </div>
     <div className="bg-gray-900 text-white flex justify-center h-[20px] py-10">
-      <h1>
+      <h1 className="mx-5 border-r-2 border-r-white">
         <Link href="../../footer/kiyaku">
           <a>利用規約</a>
         </Link>
