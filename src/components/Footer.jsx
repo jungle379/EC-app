@@ -13,9 +13,9 @@ const Footer = () => (
       <div>
         <div className="flex justify-evenly py-[20px]">
           <h1 className="text-2xl">Amazonessについて</h1>
-          <h2>test2</h2>
-          <h3>test3</h3>
-          <h4>test4</h4>
+          <h2 className="text-2xl">各種お支払い</h2>
+          <h3 className="text-2xl">ビジネス</h3>
+          <h4 className="text-2xl">ヘルプ＆ガイド</h4>
         </div>
         <div className="flex justify-evenly py-[20px]">
           <h1>
