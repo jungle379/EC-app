@@ -55,9 +55,9 @@ const Footer = () => (
         </div>
         <div className="">
           <h1 className="text-2xl py-5">ヘルプ＆ガイド</h1>
-          <h2 className="py-5">test4</h2>
-          <h3 className="py-5">test5</h3>
-          <h4 className="py-5">test6</h4>
+          <h2 className="py-5">サイトガイド</h2>
+          <h3 className="py-5">ヘルプ</h3>
+          <h4 className="py-5">外部サイト</h4>
         </div>
       </div>
     </div>
