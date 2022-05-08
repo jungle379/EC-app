@@ -12,52 +12,52 @@ const Footer = () => (
     <div className="bg-gray-700 text-white py-5">
       <div className="flex justify-evenly py-[20px]">
         <div className="">
-          <h1 className="text-2xl">Amazonessについて</h1>
-          <h2>
+          <h1 className="text-2xl py-5">Amazonessについて</h1>
+          <h2 className="py-5">
             <Link href="../footer2/signin">
               <a>アカウントの作成について</a>
             </Link>
           </h2>
-          <h3>
+          <h3 className="py-5">
             <Link href="/">
               <a>会社概要</a>
             </Link>
           </h3>
-          <h4>
+          <h4 className="py-5">
             <Link href="../footer2/recruit">
               <a>採用情報</a>
             </Link>
           </h4>
         </div>
         <div className="">
-          <h1 className="text-2xl">各種お支払い</h1>
-          <h2>
+          <h1 className="text-2xl py-5">各種お支払い</h1>
+          <h2 className="py-5">
             <Link href="/">
               <a>クレジットカードについて</a>
             </Link>
           </h2>
-          <h3>
+          <h3 className="py-5">
             <Link href="/">
               <a>アプリ決済について</a>
             </Link>
           </h3>
-          <h4>
+          <h4 className="py-5">
             <Link href="/">
               <a>現金支払について</a>
             </Link>
           </h4>
         </div>
         <div className="">
-          <h1 className="text-2xl">ビジネス</h1>
-          <h2>test1</h2>
-          <h3>test2</h3>
-          <h4>test3</h4>
+          <h1 className="text-2xl py-5">ビジネス</h1>
+          <h2 className="py-5">test1</h2>
+          <h3 className="py-5">test2</h3>
+          <h4 className="py-5">test3</h4>
         </div>
         <div className="">
-          <h1 className="text-2xl">ヘルプ＆ガイド</h1>
-          <h2>test4</h2>
-          <h3>test5</h3>
-          <h4>test6</h4>
+          <h1 className="text-2xl py-5">ヘルプ＆ガイド</h1>
+          <h2 className="py-5">test4</h2>
+          <h3 className="py-5">test5</h3>
+          <h4 className="py-5">test6</h4>
         </div>
       </div>
     </div>
