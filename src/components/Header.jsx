@@ -9,7 +9,11 @@ const Header = (props) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const q = event.currentTarget.query.value;
-    const data = await fetch("/api/search");
+    const data = await fetch("/api/search", {
+      method: "POST",
+      headers: { "Content-type": "application/json" },
+      body: JSON.stringify({ q }),
+    });
     const json = await data.json();
     setSearch(json);
   };
