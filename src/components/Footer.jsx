@@ -51,7 +51,7 @@ const Footer = () => (
           <h1 className="text-2xl py-5">ビジネス</h1>
           <h2 className="py-5">商用利用について</h2>
           <h3 className="py-5">ToB製品群について</h3>
-          <h4 className="py-5">***</h4>
+          <h4 className="py-5">各種お問い合わせ</h4>
         </div>
         <div className="">
           <h1 className="text-2xl py-5">ヘルプ＆ガイド</h1>
