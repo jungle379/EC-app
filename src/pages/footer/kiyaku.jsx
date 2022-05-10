@@ -13,8 +13,8 @@ const Kiyaku = () => (
     </Head>
     <Header />
     <div className="h-screen bg-green-100">
-      <div className="text-2xl mx-20 py-5">規約</div>
-      <div className="text-xl mx-20">
+      <div className="text-4xl font-bold px-20 py-10">規約</div>
+      <div className="text-2xl px-20 py-5">
         当サイトの規約
         <h1>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error quidem
@@ -28,16 +28,10 @@ const Kiyaku = () => (
           pariatur quo aperiam hic laborum quasi architecto, magni facilis.
         </h2>
       </div>
-      <div className="mx-40 py-10 text-4xl text-red-800">
+      <div className="mx-40 py-10 text-2xl text-red-800">
         <button onClick={notify}>クリック！</button>
         <Toaster />
       </div>
-      <div>
-        <Link href="/">
-          <a>Topへ</a>
-        </Link>
-      </div>
-      <div></div>
     </div>
     <Footer />
   </>
