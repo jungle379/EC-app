@@ -33,7 +33,7 @@ const Footer = () => (
           <h1 className="text-2xl py-5">各種お支払い</h1>
           <h2 className="py-5">
             <Link href="/">
-              <a>クレジットカードについて</a>
+              <a>クレジットカード決済について</a>
             </Link>
           </h2>
           <h3 className="py-5">
