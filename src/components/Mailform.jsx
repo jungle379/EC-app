@@ -14,26 +14,28 @@ function Mailer() {
   });
 
   return (
-    <Box sx={{ maxWidth: 300 }} mx="auto">
-      <form onSubmit={form.onSubmit((values) => console.log(values))}>
-        <TextInput
-          required
-          label="Email"
-          placeholder="your@email.com"
-          {...form.getInputProps("email")}
-        />
+    <div className="px-[500px]">
+      <Box sx={{ maxWidth: 400 }}>
+        <form onSubmit={form.onSubmit((values) => console.log(values))}>
+          <TextInput
+            required
+            label="Email"
+            placeholder="your@email.com"
+            {...form.getInputProps("email")}
+          />
 
-        <Checkbox
-          mt="md"
-          label="I agree to sell my privacy"
-          {...form.getInputProps("termsOfService", { type: "checkbox" })}
-        />
+          <Checkbox
+            mt="md"
+            label="I agree to sell my privacy"
+            {...form.getInputProps("termsOfService", { type: "checkbox" })}
+          />
 
-        <Group position="right" mt="md">
-          <Button type="submit">Submit</Button>
-        </Group>
-      </form>
-    </Box>
+          <Group position="right" mt="md">
+            <Button type="submit">Submit</Button>
+          </Group>
+        </form>
+      </Box>
+    </div>
   );
 }
 

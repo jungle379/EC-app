@@ -12,7 +12,7 @@ const Inquery = () => (
     <Header />
     <div className="h-screen bg-green-100">
       <div className="text-4xl font-bold px-40 py-20">お問い合わせ</div>
-      <div className="py-5 flex justify-center">
+      <div className="py-5 px-[500px]">
         <Select
           className="w-[500px]"
           label="何についてのお問合せですか？"
@@ -25,7 +25,7 @@ const Inquery = () => (
           ]}
         />
       </div>
-      <div className="py-5 flex justify-center">
+      <div className="py-5 px-[500px]">
         <Textarea
           className="w-[600px]"
           placeholder="Your comment"
@@ -35,7 +35,6 @@ const Inquery = () => (
           required
         />
       </div>
-      <div></div>
       <Mailer />
     </div>
     <Footer />
