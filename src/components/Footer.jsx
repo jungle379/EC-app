@@ -65,28 +65,28 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <div className="bg-gray-900 text-white flex justify-center h-[20px] py-10">
-      <h1 className="mx-5 border-r-2 border-r-white">
+    <div className="bg-gray-900 text-white flex justify-evenly h-[20px] py-10">
+      <h1 className="px-5 border-r-2 border-r-white">
         <Link href="../../footer/kiyaku">
           <a>利用規約</a>
         </Link>
       </h1>
-      <h2 className="mx-5 border-r-2 border-r-white">
+      <h2 className="px-5 border-r-2 border-r-white">
         <Link href="../../footer/privacy">
           <a>プライバシー規約</a>
         </Link>
       </h2>
-      <h3 className="mx-5 border-r-2 border-r-white">
+      <h3 className="px-5 border-r-2 border-r-white">
         <Link href="../../footer/personal">
           <a>パーソナライズ広告規約</a>
         </Link>
       </h3>
-      <h4 className="mx-5 border-r-2 border-r-white">
+      <h4 className="px-5 border-r-2 border-r-white">
         <Link href="../../footer/others">
           <a>各種規約</a>
         </Link>
       </h4>
-      <h5>©️2022 Amazoness</h5>
+      <h5>©️2022 Amazoness.inc</h5>
     </div>
   </>
 );
