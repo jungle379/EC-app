@@ -49,8 +49,16 @@ const Footer = () => (
         </div>
         <div className="">
           <h1 className="text-2xl py-5">ビジネス</h1>
-          <h2 className="py-5">商用利用について</h2>
-          <h3 className="py-5">ToB製品群について</h3>
+          <h2 className="py-5">
+            <Link href="">
+              <a>商用利用について</a>
+            </Link>
+          </h2>
+          <h3 className="py-5">
+            <Link href="">
+              <a>ToB製品群について</a>
+            </Link>
+          </h3>
           <h4 className="py-5">
             <Link href="../inquery">
               <a>各種お問い合わせ</a>
@@ -59,9 +67,21 @@ const Footer = () => (
         </div>
         <div className="">
           <h1 className="text-2xl py-5">ヘルプ＆ガイド</h1>
-          <h2 className="py-5">サイトガイド</h2>
-          <h3 className="py-5">ヘルプ</h3>
-          <h4 className="py-5">外部サイト</h4>
+          <h2 className="py-5">
+            <Link href="">
+              <a>サイトガイド</a>
+            </Link>
+          </h2>
+          <h3 className="py-5">
+            <Link href="">
+              <a>ヘルプ</a>
+            </Link>
+          </h3>
+          <h4 className="py-5">
+            <Link href="">
+              <a>外部サイト</a>
+            </Link>
+          </h4>
         </div>
       </div>
     </div>
