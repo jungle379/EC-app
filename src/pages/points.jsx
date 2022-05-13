@@ -9,8 +9,11 @@ const Points = () => (
     </Head>
     <div className="bg-green-100 h-screen">
       <Header />
-      <div className="text-4xl py-20 px-20 font-bold">ポイントを使用する</div>
+      <div className="text-4xl py-20 px-20 font-bold">Amazonessポイント</div>
     </div>
+    <div></div>
+    <div></div>
+    <div></div>
     <Footer />
   </>
 );
