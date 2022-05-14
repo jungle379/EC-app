@@ -6,9 +6,6 @@ const Footer = () => (
     <div className="bg-gray-500 h-[80px]">
       <h1 className="text-white flex justify-center py-[30px]">
         <ReturnTopButton />
-        {/* <Link href="/">
-          <a>トップに戻る</a>
-        </Link> */}
       </h1>
     </div>
     <div className="bg-gray-700 text-white py-5">
