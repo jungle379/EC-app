@@ -73,17 +73,17 @@ const Header = (props) => {
           <Hamburger />
         </div>
         <div className="px-10 py-[15px] hover:text-red-500">
-          <Link href="/points">
+          <Link href="../header2/points">
             <a>Amazoness_point:*P</a>
           </Link>
         </div>
         <div className="px-10 py-[15px] hover:text-red-500">
-          <Link href="/views">
+          <Link href="../header2/views">
             <a>閲覧履歴</a>
           </Link>
         </div>
         <div className="px-10 py-[15px] hover:text-red-500">
-          <Link href="/history">
+          <Link href="../header2/history">
             <a>再購入</a>
           </Link>
         </div>
