@@ -3,8 +3,8 @@ import ReturnTopButton from "./ButtonTop";
 
 const Footer = () => (
   <>
-    <div className="bg-gray-500 h-[80px]">
-      <h1 className="text-white flex justify-center py-[30px]">
+    <div className="bg-gray-500 h-[60px]">
+      <h1 className="text-white flex justify-center py-[20px]">
         <ReturnTopButton />
       </h1>
     </div>
