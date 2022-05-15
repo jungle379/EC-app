@@ -23,7 +23,7 @@ const Cart = (props) => (
     <div className="h-screen bg-green-100">
       <div className="flex justify-between">
         <div className="text-4xl font-bold pt-20 px-40">カート</div>
-        <div className="text-xl hover:text-red-500 py-10 px-40">
+        <div className="text-xl hover:text-red-500 my-10 mx-40 py-[5px] bg-yellow-200 w-[130px] flex justify-center border-2">
           <Link href="/history">
             <a>購入履歴へ</a>
           </Link>
