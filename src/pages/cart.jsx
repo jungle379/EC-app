@@ -17,12 +17,12 @@ export const getStaticProps = async () => {
 const Cart = (props) => (
   <>
     <Head>
-      <title>カート内</title>
+      <title>カート内商品</title>
     </Head>
     <Header />
     <div className="h-screen bg-green-100">
       <div className="flex justify-between">
-        <div className="text-4xl font-bold pt-20 px-20">カート</div>
+        <div className="text-4xl font-bold pt-20 px-40">カート</div>
         <div className="text-xl hover:text-red-500 py-10 px-40">
           <Link href="/history">
             <a>購入履歴へ</a>
@@ -43,7 +43,7 @@ const Cart = (props) => (
           })}
         </ul>
       </div>
-      <div className="flex justify-center textl-xl hover:text-red-600">
+      <div className="flex justify-center text-0.5xl hover:text-red-600 border-2 bg-yellow-200 w-[40px] mx-[700px]">
         <Link href="../buy/registar">
           <a>購入</a>
         </Link>

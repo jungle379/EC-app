@@ -47,23 +47,30 @@ function Hamburger(props) {
                 </SignedOut>
               </div>
               <div>
-                <Link href="/popular" className="">
+                <Link href="/popular">
                   <a className="text-blue-600 hover:text-red-500 hover:underline">
                     人気ランキング
                   </a>
                 </Link>
               </div>
               <div>
-                <Link href="/newest" className="">
+                <Link href="/newest">
                   <a className="text-blue-600 hover:text-red-500 hover:underline">
                     新着商品
                   </a>
                 </Link>
               </div>
               <div>
-                <Link href="/category" className="">
+                <Link href="/category">
                   <a className="text-blue-600 hover:text-red-500 hover:underline">
                     カテゴリー一覧
+                  </a>
+                </Link>
+              </div>
+              <div>
+                <Link href="/">
+                  <a className="text-blue-600 hover:text-red-500 hover:underline">
+                    ログアウト
                   </a>
                 </Link>
               </div>
