@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 import { Tabs } from "@mantine/core";
 import { useState } from "react";
-import Lock from "../components/Lock";
+import Lock from "../../components/Lock";
 
 export const Views = () => {
   const [activeTab, setActiveTab] = useState();
@@ -15,7 +15,7 @@ export const Views = () => {
       </Head>
       <Header />
       <div className="bg-green-100 h-screen">
-        <div className="px-20 py-10 text-4xl font-bold">閲覧履歴</div>
+        <div className="px-40 py-20 text-4xl font-bold">閲覧履歴</div>
         <div className="px-40 py-10 h-[300px] text-2xl">
           <Tabs active={activeTab} onTabChange={setActiveTab}>
             <Tabs.Tab label="前日">前日の閲覧履歴</Tabs.Tab>

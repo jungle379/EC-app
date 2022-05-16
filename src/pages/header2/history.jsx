@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Lock from "../components/Lock";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import Lock from "../../components/Lock";
 import { Tabs } from "@mantine/core";
 import { useState } from "react";
 
@@ -14,7 +14,7 @@ const History = () => {
       </Head>
       <div className="bg-green-100 h-screen">
         <Header />
-        <div className="text-4xl py-10 px-20 font-bold">購入履歴</div>
+        <div className="text-4xl py-20 px-40 font-bold">購入履歴</div>
         <div className="px-40 py-10 h-[300px] text-2xl">
           <Tabs active={activeTab} onTabChange={setActiveTab}>
             <Tabs.Tab label="先月">先月の購入履歴</Tabs.Tab>

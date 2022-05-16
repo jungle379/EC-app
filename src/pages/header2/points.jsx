@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 
 const Points = () => (
   <>
@@ -9,7 +9,7 @@ const Points = () => (
     </Head>
     <div className="bg-green-100 h-screen">
       <Header />
-      <div className="text-4xl py-20 px-20 font-bold">Amazonessポイント</div>
+      <div className="text-4xl py-20 px-40 font-bold">Amazonessポイント</div>
     </div>
     <div></div>
     <div></div>
