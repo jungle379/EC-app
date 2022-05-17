@@ -29,8 +29,8 @@ const News = (props) => (
     <Header />
     <div className="bg-green-100 h-screen">
       <div>
-        <div className="text-4xl px-10 py-10 font-bold">新着商品</div>
-        <div className="px-20 text-2xl">
+        <div className="text-4xl px-40 py-10 font-bold">新着商品</div>
+        <div className="px-40 text-2xl">
           <p>{`新着アイテム: ${props.totalCount}品`}</p>
           <ul>
             {props.contents.map((content) => {
