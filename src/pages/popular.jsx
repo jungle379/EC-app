@@ -36,7 +36,7 @@ const Popular = () => (
       <div className="text-4xl py-20 px-40 font-bold">人気ランキング</div>
       {ITEMS.map((item) => {
         return (
-          <div className="py-10 px-20 text-2xl w-[100px]">
+          <div className="py-10 px-40 text-2xl w-[100px]">
             <Link href={item.href}>
               <a>{item.title}</a>
             </Link>
