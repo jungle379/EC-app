@@ -67,17 +67,17 @@ const Footer = () => (
         <div className="">
           <h1 className="text-2xl py-5">ヘルプ＆ガイド</h1>
           <h2 className="py-5">
-            <Link href="">
+            <Link href="/">
               <a>サイトガイド</a>
             </Link>
           </h2>
           <h3 className="py-5">
-            <Link href="">
+            <Link href="/">
               <a>ヘルプ</a>
             </Link>
           </h3>
           <h4 className="py-5">
-            <Link href="">
+            <Link href="/">
               <a>外部サイト</a>
             </Link>
           </h4>
