@@ -9,7 +9,7 @@ const Category = () => (
     <Head>
       <title>カテゴリー</title>
     </Head>
-    <div className="bg-green-100">
+    <div className="bg-green-100 h-auto">
       <Header />
       <div className="text-4xl my-10 mx-40 font-bold">カテゴリー一覧</div>
       <div className="px-40 text-2xl">
