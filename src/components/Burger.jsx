@@ -38,7 +38,7 @@ function Hamburger(props) {
             <span className="absolute transform rotate-45 mt-0.5 h-0.5 w-5 bg-black"></span>
             <span className="absolute transform -rotate-45 mt-0.5 h-0.5 w-5 bg-black"></span>
             <div className="py-10 w-[150px]">
-              <div>
+              <div className="py-[5px]">
                 <SignedIn>
                   <ClerkFeatures />
                 </SignedIn>
@@ -46,28 +46,28 @@ function Hamburger(props) {
                   <SignupLink />
                 </SignedOut>
               </div>
-              <div>
+              <div className="py-[5px]">
                 <Link href="/popular">
                   <a className="text-blue-600 hover:text-red-500 hover:underline">
                     人気ランキング
                   </a>
                 </Link>
               </div>
-              <div>
+              <div className="py-[5px]">
                 <Link href="/newest">
                   <a className="text-blue-600 hover:text-red-500 hover:underline">
                     新着商品
                   </a>
                 </Link>
               </div>
-              <div>
+              <div className="py-[5px]">
                 <Link href="/category">
                   <a className="text-blue-600 hover:text-red-500 hover:underline">
                     カテゴリー一覧
                   </a>
                 </Link>
               </div>
-              <div>
+              <div className="py-[5px]">
                 <Link href="/">
                   <a className="text-blue-600 hover:text-red-500 hover:underline">
                     ログアウト
