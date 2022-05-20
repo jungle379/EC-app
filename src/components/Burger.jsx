@@ -12,9 +12,9 @@ const ClerkFeatures = () => (
 
 const SignupLink = () => (
   <Link href="/sign-up">
-    <a className="">
+    <a>
       <img src="/icons/user-plus.svg" />
-      <div className="">
+      <div>
         <img src="/icons/arrow-right.svg" />
       </div>
     </a>
