@@ -10,7 +10,7 @@ const Footer = () => (
     </div>
     <div className="bg-gray-700 text-white py-5">
       <div className="flex justify-evenly py-[20px]">
-        <div className="">
+        <div>
           <h1 className="text-2xl py-5">Amazonessについて</h1>
           <h2 className="py-5">
             <Link href="../footer2/signin">
