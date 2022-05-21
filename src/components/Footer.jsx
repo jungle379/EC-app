@@ -36,7 +36,7 @@ const Footer = () => (
             </Link>
           </h2>
           <h3 className="py-5">
-            <Link href="/">
+            <Link href="../footer2/qr">
               <a>アプリ決済について</a>
             </Link>
           </h3>
