@@ -74,7 +74,7 @@ const Header = (props) => {
         </div>
         <div className="px-10 py-[15px] hover:text-red-500">
           <Link href="../header2/points">
-            <a>Amazoness_point:*P</a>
+            <a>Amazoness_point</a>
           </Link>
         </div>
         <div className="px-10 py-[15px] hover:text-red-500">

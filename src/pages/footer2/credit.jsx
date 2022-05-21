@@ -3,14 +3,16 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Lock from "../../components/Lock";
 
-const Company = () => (
+const Credit = () => (
   <>
     <Head>
-      <title>会社概要</title>
+      <title>クレジットカード決済</title>
     </Head>
     <div className="bg-green-100">
       <Header />
-      <div className="text-4xl py-20 px-40 font-bold">会社概要</div>
+      <div classsName="text-2xl py-20 px-40 font-bold">
+        クレジットカードでの支払いについて
+      </div>
       <div className="px-10 py-10">
         <Lock />
       </div>
@@ -19,4 +21,4 @@ const Company = () => (
   </>
 );
 
-export default Company;
+export default Credit;

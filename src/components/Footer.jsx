@@ -18,7 +18,7 @@ const Footer = () => (
             </Link>
           </h2>
           <h3 className="py-5">
-            <Link href="/">
+            <Link href="/footer2/company">
               <a>会社概要</a>
             </Link>
           </h3>
@@ -31,7 +31,7 @@ const Footer = () => (
         <div className="">
           <h1 className="text-2xl py-5">各種お支払い</h1>
           <h2 className="py-5">
-            <Link href="/">
+            <Link href="../footer2/credit">
               <a>クレジットカード決済について</a>
             </Link>
           </h2>
