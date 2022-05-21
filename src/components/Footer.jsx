@@ -41,7 +41,7 @@ const Footer = () => (
             </Link>
           </h3>
           <h4 className="py-5">
-            <Link href="/">
+            <Link href="../footer2/cash">
               <a>現金支払について</a>
             </Link>
           </h4>
