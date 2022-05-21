@@ -2,6 +2,7 @@ import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import { useState } from "react";
 import Hamburger from "./Burger";
+import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const Header = (props) => {
   const [search, setSearch] = useState();
@@ -22,8 +23,8 @@ const Header = (props) => {
 
   return (
     <div>
-      <div className="bg-gray-400 flex justify-between px-5 py-10">
-        <div className="md:text-2xl font-bold">
+      <div className="bg-gray-400 flex justify-evenly px-5 py-10">
+        <div className="md:text-2xl font-bold pr-20">
           <Link href="/">
             <a>Amazoness</a>
           </Link>
@@ -45,14 +46,15 @@ const Header = (props) => {
           </div>
           <div className="mr-20 border-2 border-gray-600 h-[40px]">
             <form onSubmit={handleSubmit} autoComplete="off">
-              <input className="w-[800px] h-[35px]" type="text" name="query" />
+              <input className="w-[600px] h-[35px]" type="text" name="query" />
               <button className="bg-orange-400 h-[37px] font-bold">
                 検索する
               </button>
             </form>
           </div>
           <div className="flex justify-end">
-            <div className="pt-[5px]">
+            <div className="pt-[5px] w-[80px] flex">
+              <AiOutlineShoppingCart />
               <Link href="/cart">
                 <a>カート</a>
               </Link>
