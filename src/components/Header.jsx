@@ -52,7 +52,7 @@ const Header = (props) => {
             </form>
           </div>
           <div className="flex justify-end">
-            <div>
+            <div className="pt-[5px]">
               <Link href="/cart">
                 <a>カート</a>
               </Link>
