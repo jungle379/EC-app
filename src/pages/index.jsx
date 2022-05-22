@@ -15,10 +15,10 @@ const Home = () => {
       </Head>
       <Header />
       <main className="h-auto bg-green-100">
-        <div className="px-20 py-20">
+        <div className="px-20 py-5">
           <TestCarousel />
         </div>
-        <div className="py-40 px-20 flex justify-end">
+        <div className="py-20 px-20 flex justify-end">
           <Calendar value={value} onChange={setValue} />
         </div>
       </main>

@@ -23,7 +23,7 @@ const TestCarousel = () => {
             <Image
               src={src}
               layout="responsive"
-              width={500}
+              width={400}
               height={200}
               alt="test_image"
             />
