@@ -12,7 +12,7 @@ const Category = () => (
     <div className="bg-green-100 h-auto">
       <Header />
       <div className="text-4xl my-10 mx-40 font-bold">カテゴリー一覧</div>
-      <div className="px-40 text-2xl">
+      <div className="px-40 text-2xl w-[600px]">
         <div className="py-5 hover:text-red-600 hover:underline">
           <Link href="../category/fashion">
             <a>ファッション</a>
