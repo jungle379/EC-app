@@ -28,6 +28,7 @@
     "react-icons": "^4.3.1",
     "react-native-web": "^0.17.7",
     "scrollex": "^1.0.1",
+    "swiper": "^8.1.5",
     "tabler-icons-react": "^1.42.0",
     "tamagui": "^1.0.1-beta.28"
   },
