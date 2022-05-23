@@ -1,8 +1,8 @@
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react"; //カルーセル用のタグをインポート
-import SwiperCore, { Pagination, Navigation } from "swiper"; //使いたい機能をインポート
+import SwiperCore, { Pagination, Navigation, Autoplay } from "swiper"; //使いたい機能をインポート
 
-SwiperCore.use([Pagination, Navigation]);
+SwiperCore.use([Pagination, Navigation, Autoplay]);
 
 // カルーセルにする画像のソースをリストにします
 const images = ["/test_image.jpg", "/test_image2.jpg", "/test_image3.jpg"];
@@ -23,8 +23,8 @@ const TestCarousel = () => {
             <Image
               src={src}
               layout="responsive"
-              width={400}
-              height={200}
+              width={200}
+              height={100}
               alt="test_image"
             />
           </SwiperSlide>

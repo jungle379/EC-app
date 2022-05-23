@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import { Calendar } from "@mantine/dates";
 import { useState } from "react";
 import TestCarousel from "../components/Swiper";
+import Lock from "../components/Lock";
 
 const Home = () => {
   const [value, setValue] = useState(null);
@@ -18,6 +19,7 @@ const Home = () => {
         <div className="px-20 py-5">
           <TestCarousel />
         </div>
+        <Lock />
         <div className="py-20 px-20 flex justify-end">
           <Calendar value={value} onChange={setValue} />
         </div>
