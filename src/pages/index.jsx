@@ -16,7 +16,7 @@ const Home = () => {
       </Head>
       <Header />
       <main className="h-auto bg-green-100">
-        <div className="px-20 py-5">
+        <div className="px-40 py-10">
           <TestCarousel />
         </div>
         <Lock />
