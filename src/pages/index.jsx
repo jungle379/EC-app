@@ -19,10 +19,10 @@ const Home = () => {
         <div className="px-40 py-10">
           <TestCarousel />
         </div>
-        <Lock />
         <div className="py-20 px-20 flex justify-end">
           <Calendar value={value} onChange={setValue} />
         </div>
+        <Lock />
       </main>
       <Footer />
     </>
