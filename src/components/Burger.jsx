@@ -5,7 +5,7 @@ import { useState } from "react";
 const ClerkFeatures = () => (
   <Link href="/user">
     <a className="text-blue-600 hover:text-red-500 hover:underline">
-      アカウント管理
+      アカウント管理ページ
     </a>
   </Link>
 );
