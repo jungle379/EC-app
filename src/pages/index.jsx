@@ -22,7 +22,9 @@ const Home = () => {
         <div className="py-20 px-20 flex justify-end">
           <Calendar value={value} onChange={setValue} />
         </div>
-        <Lock />
+        <div className="py-10">
+          <Lock />
+        </div>
       </main>
       <Footer />
     </>
