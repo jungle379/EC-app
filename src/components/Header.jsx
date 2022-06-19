@@ -53,7 +53,7 @@ const Header = (props) => {
             </form>
           </div>
           <div className="flex justify-end">
-            <div className="pt-[5px] w-[80px] flex">
+            <div className="pt-[5px] w-[80px] flex hover:text-red-500">
               <AiOutlineShoppingCart />
               <Link href="/cart">
                 <a>カート</a>
