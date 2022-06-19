@@ -34,7 +34,7 @@ const Cart = (props) => (
         <ul>
           {props.contents.map((content) => {
             return (
-              <li key={content.id}>
+              <li className="mt-10" key={content.id}>
                 <Link href={`cart/${content.id}`}>
                   <a>{content.title}</a>
                 </Link>
