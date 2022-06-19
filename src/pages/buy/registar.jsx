@@ -18,14 +18,14 @@ const Registar = () => {
         <div className="mx-20 text-2xl w-[350px]">
           <div style={{ width: 400, position: "relative" }}>
             <LoadingOverlay visible={visible} />
-            {/* ...other content */}
+            ...other content
           </div>
 
-          <Group position="center">
+          {/* <Group position="center">
             <Button onClick={() => setVisible((v) => !v)}>
               Toggle overlay
             </Button>
-          </Group>
+          </Group> */}
         </div>
         <div className="px-10 py-10">
           <Lock />
