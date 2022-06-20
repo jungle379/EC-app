@@ -41,6 +41,7 @@ const Header = (props) => {
               <option value="DVD">DVD/BD</option>
               <option value="products">雑貨</option>
               <option value="hobby">玩具</option>
+              <option value="PC">パソコン製品</option>
               <option value="others">その他</option>
             </select>
           </div>
