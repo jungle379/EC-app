@@ -75,32 +75,32 @@ const Header = (props) => {
         <div className="px-10 py-[15px]">
           <Hamburger />
         </div>
-        <div className="px-10 py-[15px] hover:text-red-500">
+        <div className="px-10 py-[15px] hover:text-red-500 text-sm">
           <Link href="../header2/points">
             <a>Amazoness_point</a>
           </Link>
         </div>
-        <div className="px-10 py-[15px] hover:text-red-500">
+        <div className="px-10 py-[15px] hover:text-red-500 text-sm">
           <Link href="../header2/views">
             <a>閲覧履歴</a>
           </Link>
         </div>
-        <div className="px-10 py-[15px] hover:text-red-500">
+        <div className="px-10 py-[15px] hover:text-red-500 text-sm">
           <Link href="../header2/history">
             <a>再購入</a>
           </Link>
         </div>
-        <div className="px-10 py-[15px] hover:text-red-500">
+        <div className="px-10 py-[15px] hover:text-red-500 text-sm">
           <Link href="../category/foods">
             <a>食料品</a>
           </Link>
         </div>
-        <div className="px-10 py-[15px] hover:text-red-500">
+        <div className="px-10 py-[15px] hover:text-red-500 text-sm">
           <Link href="../category/music">
             <a>音楽</a>
           </Link>
         </div>
-        <div className="px-10 py-[15px] hover:text-red-500">
+        <div className="px-10 py-[15px] hover:text-red-500 text-sm">
           <Link href="../category/products">
             <a>雑貨</a>
           </Link>
