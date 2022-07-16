@@ -17,11 +17,11 @@ const Home = () => {
       </Head>
       <Header />
       <main className="h-auto bg-green-100">
-        <div className="">
+        <div>
           <TestCarousel />
         </div>
         <div className="flex justify-evenly my-20">
-          <div>
+          <div className="mx-10 bg-white h-[300px]">
             <Link href="/">
               <a>再び購入</a>
             </Link>
