@@ -5,6 +5,7 @@ import { Calendar } from "@mantine/dates";
 import { useState } from "react";
 import TestCarousel from "../components/Swiper";
 import Lock from "../components/Lock";
+import Link from "next/link";
 
 const Home = () => {
   const [value, setValue] = useState(null);
@@ -16,8 +17,37 @@ const Home = () => {
       </Head>
       <Header />
       <main className="h-auto bg-green-100">
-        <div className="px-10">
+        <div className="">
           <TestCarousel />
+        </div>
+        <div className="flex justify-evenly my-20">
+          <div>
+            <Link href="/">
+              <a>再び購入</a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/">
+              <a>注目のタイムセール</a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/">
+              <a>Amazonessカードの入会</a>
+            </Link>
+          </div>
+          <div>
+            <div>
+              <Link href="/">
+                <a>カードA1</a>
+              </Link>
+            </div>
+            <div>
+              <Link href="/">
+                <a>カードA2</a>
+              </Link>
+            </div>
+          </div>
         </div>
         <div className="py-20 px-20 flex justify-between">
           <div className="py-40 px-20">
