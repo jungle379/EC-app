@@ -16,7 +16,7 @@ const Home = () => {
       </Head>
       <Header />
       <main className="h-auto bg-green-100">
-        <div className="px-40 py-80">
+        <div className="px-10">
           <TestCarousel />
         </div>
         <div className="py-20 px-20 flex justify-between">

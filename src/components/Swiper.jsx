@@ -24,7 +24,7 @@ const TestCarousel = () => {
               src={src}
               layout="responsive"
               width={200}
-              height={100}
+              height={50}
               alt="test_image"
             />
           </SwiperSlide>
