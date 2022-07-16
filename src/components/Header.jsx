@@ -24,7 +24,7 @@ const Header = (props) => {
   return (
     <div>
       <div className="bg-gray-400 flex justify-evenly px-5 py-10">
-        <div className="md:text-2xl font-bold pr-20">
+        <div className="text-2xl font-bold pr-20">
           <Link href="/">
             <a>Amazoness</a>
           </Link>
