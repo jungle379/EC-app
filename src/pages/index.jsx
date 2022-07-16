@@ -21,22 +21,22 @@ const Home = () => {
           <TestCarousel />
         </div>
         <div className="flex justify-evenly my-20">
-          <div className="mx-10 bg-white h-[300px]">
+          <div className="mx-10 bg-white h-[300px] w-1/4">
             <Link href="/">
               <a>再び購入</a>
             </Link>
           </div>
-          <div>
+          <div className="mx-10 bg-white h-[300px] w-1/4">
             <Link href="/">
               <a>注目のタイムセール</a>
             </Link>
           </div>
-          <div>
+          <div className="mx-10 bg-white h-[300px] w-1/4">
             <Link href="/">
               <a>Amazonessカードの入会</a>
             </Link>
           </div>
-          <div>
+          <div className="mx-10 bg-white h-[300px] w-1/4">
             <div>
               <Link href="/">
                 <a>カードA1</a>
