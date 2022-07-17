@@ -84,13 +84,13 @@ const Footer = () => (
         </div>
       </div>
     </div>
-    <div className="bg-gray-900 text-white flex justify-evenly h-[20px] py-10">
+    <div className="bg-gray-900 text-white flex justify-center h-[100px] py-10">
       <h1 className="px-5 border-r-2 border-r-white">
         <Link href="../../footer/kiyaku">
           <a>利用規約</a>
         </Link>
       </h1>
-      <h2 className="px-5 border-r-2 border-r-white">
+      <h2 className="px-5 border-r-2 border-x-white">
         <Link href="../../footer/privacy">
           <a>プライバシー規約</a>
         </Link>
@@ -105,7 +105,7 @@ const Footer = () => (
           <a>各種規約</a>
         </Link>
       </h4>
-      <h5>©️2022 Amazoness.inc</h5>
+      <h5 className="px-5">©️2022 Amazoness.inc</h5>
     </div>
   </>
 );

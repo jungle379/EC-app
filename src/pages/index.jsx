@@ -49,6 +49,28 @@ const Home = () => {
             </div>
           </div>
         </div>
+        <div className="flex justify-evenly my-20">
+          <div className="mx-10 bg-white h-[300px] w-1/4">
+            <Link href="/">
+              <a>再び購入</a>
+            </Link>
+          </div>
+          <div className="mx-10 bg-white h-[300px] w-1/4">
+            <Link href="/">
+              <a>注目のタイムセール</a>
+            </Link>
+          </div>
+          <div className="mx-10 bg-white h-[300px] w-1/4">
+            <Link href="/">
+              <a>Amazonessカードの入会</a>
+            </Link>
+          </div>
+          <div className="mx-10 bg-white h-[300px] w-1/4">
+            <Link href="/">
+              <a>カードA1</a>
+            </Link>
+          </div>
+        </div>
         <div className="py-20 px-20 flex justify-between">
           <div className="py-40 px-20">
             <Lock />
