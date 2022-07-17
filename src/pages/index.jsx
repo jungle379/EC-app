@@ -16,7 +16,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <main className="h-auto bg-green-100">
+      <main className="h-full bg-green-100">
         <div>
           <TestCarousel />
         </div>
@@ -36,18 +36,16 @@ const Home = () => {
               <a>Amazonessカードの入会</a>
             </Link>
           </div>
-          <div className="mx-10 bg-white h-[300px] w-1/4">
-            <div className="my-10">
-              <div>
-                <Link href="/">
-                  <a>カードA1</a>
-                </Link>
-              </div>
-              <div className="my-10">
-                <Link href="/">
-                  <a>カードA2</a>
-                </Link>
-              </div>
+          <div className="mx-10 w-1/4">
+            <div className="bg-white h-[110px]">
+              <Link href="/">
+                <a>カードA1</a>
+              </Link>
+            </div>
+            <div className="bg-blue-200 h-[150px] my-10">
+              <Link href="/">
+                <a>カードA2</a>
+              </Link>
             </div>
           </div>
         </div>
