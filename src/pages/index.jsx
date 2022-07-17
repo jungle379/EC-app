@@ -37,15 +37,17 @@ const Home = () => {
             </Link>
           </div>
           <div className="mx-10 bg-white h-[300px] w-1/4">
-            <div>
-              <Link href="/">
-                <a>カードA1</a>
-              </Link>
-            </div>
-            <div>
-              <Link href="/">
-                <a>カードA2</a>
-              </Link>
+            <div className="my-10">
+              <div>
+                <Link href="/">
+                  <a>カードA1</a>
+                </Link>
+              </div>
+              <div className="my-10">
+                <Link href="/">
+                  <a>カードA2</a>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
