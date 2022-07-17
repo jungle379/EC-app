@@ -8,7 +8,7 @@ const Footer = () => (
         <ReturnTopButton />
       </h1>
     </div>
-    <div className="bg-gray-700 text-white py-5">
+    <div className="bg-gray-700 text-white py-5 px-40">
       <div className="flex justify-evenly py-[20px]">
         <div>
           <h1 className="text-2xl py-5">Amazonessについて</h1>

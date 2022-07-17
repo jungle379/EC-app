@@ -40,9 +40,11 @@ const ReturnTopButton = () => {
   const style = isButtonActive ? activeStyle : normalStyle;
 
   return (
-    <button style={style} onClick={returnTop}>
-      トップへ戻る
-    </button>
+    <div className="text-sm">
+      <button style={style} onClick={returnTop}>
+        トップへ戻る
+      </button>
+    </div>
   );
 };
 
