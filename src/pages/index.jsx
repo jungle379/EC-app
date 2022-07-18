@@ -6,6 +6,7 @@ import { useState } from "react";
 import TestCarousel from "../components/Swiper";
 import Lock from "../components/Lock";
 import Link from "next/link";
+import TestCarousel2 from "../components/Swiper2";
 
 const Home = () => {
   const [value, setValue] = useState(null);
@@ -51,7 +52,7 @@ const Home = () => {
         </div>
         <div className="bg-white">
           こちらもおすすめ
-          <TestCarousel />
+          <TestCarousel2 />
         </div>
         <div className="flex justify-evenly my-20">
           <div className="mx-10 bg-white h-[300px] w-1/4">
@@ -74,6 +75,9 @@ const Home = () => {
               <a>カードA1</a>
             </Link>
           </div>
+        </div>
+        <div className="w-1/2 bg-white mx-[350px] flex justify-center h-[400px]">
+          イメージ１
         </div>
         <div className="py-20 px-20 flex justify-between">
           <div className="py-40 px-20">
