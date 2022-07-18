@@ -72,10 +72,10 @@ const Header = (props) => {
         </div>
       </div>
       <div className="flex justify-between h-[50px] bg-gray-200">
-        <div className="px-10 py-[15px]">
+        <div className="">
           <Hamburger />
         </div>
-        <div className="px-10 py-[15px] hover:text-red-500 text-sm">
+        <div className="pr-10 py-[15px] hover:text-red-500 text-sm">
           <Link href="../header2/points">
             <a>Amazoness_point</a>
           </Link>

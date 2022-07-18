@@ -34,10 +34,12 @@ function Hamburger(props) {
     <div onClick={clickValue}>
       {menuState ? (
         <>
-          <div>
-            <span className="absolute transform rotate-45 mt-0.5 h-0.5 w-5 bg-black"></span>
-            <span className="absolute transform -rotate-45 mt-0.5 h-0.5 w-5 bg-black"></span>
-            <div className="py-10 w-[200px] h-[500px]">
+          <div className="bg-white">
+            <div className="pt-5">
+              <span className="absolute transform rotate-45 h-0.5 w-5 bg-black"></span>
+              <span className="absolute transform -rotate-45 h-0.5 w-5 bg-black"></span>
+            </div>
+            <div className="py-10 w-[300px] h-[500px]">
               <div className="py-[5px]">
                 <SignedIn>
                   <ClerkFeatures />
@@ -79,7 +81,7 @@ function Hamburger(props) {
         </>
       ) : (
         <>
-          <div className="flex justify-start">
+          <div className="flex justify-start px-10 py-[15px]">
             <div>
               <span className="absolute mt-2 h-0.5 w-5 bg-black"></span>
               <span className="absolute mt-3 h-0.5 w-5 bg-black"></span>
