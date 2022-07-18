@@ -142,9 +142,11 @@ const News = (props) => {
               {contents.map((content) => {
                 return (
                   <li key={content.id}>
-                    <Link href={`news/${content.id}`}>
-                      <a>{content.title}</a>
-                    </Link>
+                    <div className="py-5">
+                      <Link href={`news/${content.id}`}>
+                        <a>{content.title}</a>
+                      </Link>
+                    </div>
                   </li>
                 );
               })}
