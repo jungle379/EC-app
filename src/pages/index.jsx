@@ -42,12 +42,16 @@ const Home = () => {
                 <a>カードA1</a>
               </Link>
             </div>
-            <div className="bg-blue-200 h-[150px] my-10">
+            <div className="bg-white h-[150px] my-10">
               <Link href="/">
                 <a>カードA2</a>
               </Link>
             </div>
           </div>
+        </div>
+        <div className="bg-white">
+          こちらもおすすめ
+          <TestCarousel />
         </div>
         <div className="flex justify-evenly my-20">
           <div className="mx-10 bg-white h-[300px] w-1/4">
