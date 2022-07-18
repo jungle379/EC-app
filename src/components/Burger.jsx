@@ -34,7 +34,7 @@ function Hamburger(props) {
     <div onClick={clickValue}>
       {menuState ? (
         <>
-          <div className="bg-white">
+          <div className="bg-white h-[300px]">
             <div className="pt-5">
               <span className="absolute transform rotate-45 h-0.5 w-5 bg-black"></span>
               <span className="absolute transform -rotate-45 h-0.5 w-5 bg-black"></span>
