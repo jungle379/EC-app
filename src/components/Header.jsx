@@ -19,7 +19,7 @@ const Header = (props) => {
     setSearch(json);
   };
 
-  const contents = search ? search.contents : props.contents;
+  // const contents = search ? search.contents : props.contents;
 
   return (
     <div>
