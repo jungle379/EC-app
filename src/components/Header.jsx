@@ -1,26 +1,9 @@
 import Link from "next/link";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
-import { useState } from "react";
 import Hamburger from "./Burger";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 
-const Header = (props) => {
-  const [search, setSearch] = useState();
-
-  const handleSubmit = async (event) => {
-    event.preventDefault();
-    const q = event.currentTarget.query.value;
-    const data = await fetch("/api/search", {
-      method: "POST",
-      headers: { "Content-type": "application/json" },
-      body: JSON.stringify({ q }),
-    });
-    const json = await data.json();
-    setSearch(json);
-  };
-
-  // const contents = search ? search.contents : props.contents;
-
+const Header = () => {
   return (
     <div>
       <div className="bg-gray-400 flex justify-evenly px-5 py-10">
