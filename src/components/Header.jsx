@@ -5,7 +5,7 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 
 const Header = () => {
   return (
-    <div>
+    <>
       <div className="bg-gray-400 flex justify-evenly px-5 py-10">
         <div className="text-2xl font-bold pr-20">
           <Link href="/">
@@ -29,7 +29,7 @@ const Header = () => {
             </select>
           </div>
           <div className="mr-20 border-2 border-gray-600 h-[40px]">
-            <form onSubmit={handleSubmit} autoComplete="off">
+            <form autoComplete="off">
               <input className="w-[600px] h-[35px]" type="text" name="query" />
               <button className="bg-orange-400 h-[37px] font-bold">
                 検索する
@@ -89,7 +89,7 @@ const Header = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
