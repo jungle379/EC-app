@@ -79,7 +79,7 @@ const Home = () => {
         <div className="w-1/2 bg-white mx-[350px] flex justify-center h-[400px]">
           イメージ１
         </div>
-        <div className="py-20 px-20 flex justify-between">
+        <div className="py-20 px-20 flex justify-center">
           <div className="py-40 px-20">
             <Lock />
           </div>
