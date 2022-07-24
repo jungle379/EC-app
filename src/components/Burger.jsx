@@ -39,7 +39,7 @@ function Hamburger(props) {
               <span className="absolute transform rotate-45 h-0.5 w-5 bg-black"></span>
               <span className="absolute transform -rotate-45 h-0.5 w-5 bg-black"></span>
             </div>
-            <div className="py-10 w-[300px] h-[500px]">
+            <div className="py-10 w-[280px] h-[500px]">
               <div className="py-[5px]">
                 <SignedIn>
                   <ClerkFeatures />
