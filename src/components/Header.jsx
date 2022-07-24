@@ -38,7 +38,7 @@ const Header = () => {
           </div>
           <div className="flex justify-end">
             <div className="border-4 bg-white border-orange-300 border-x-4 border-y-4 pt-[5px] w-[80px] mr-5 flex justify-center hover:text-red-500">
-              <Link href="/">
+              <Link href="/category/history">
                 <a>注文履歴</a>
               </Link>
             </div>
