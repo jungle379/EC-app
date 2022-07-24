@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Link from "next/link";
-import { Pagination } from "@mantine/core";
 import { useState } from "react";
 import { SignedIn, SignedOut, UserButton } from "@clerk/clerk-react";
 import Footer from "../components/Footer";
