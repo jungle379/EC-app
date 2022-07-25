@@ -16,6 +16,8 @@ const TestCarousel2 = () => {
       }} //何枚目のスライドかを示すアイコン、スライドの下の方にある
       navigation //スライドを前後させるためのボタン、スライドの左右にある
       loop={true}
+      autoplay={{ delay: 2000, disableOnInteraction: true }}
+      speed={700}
     >
       {images.map((src, index) => {
         return (
