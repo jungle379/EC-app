@@ -21,7 +21,7 @@ const SignupLink = () => (
   </Link>
 );
 
-function Hamburger(props) {
+const Hamburger = (props) => {
   const [menuState, setMenuState] = useState(false);
   const clickValue = () => {
     const newState = !menuState; // 状態を反転させる
@@ -92,6 +92,6 @@ function Hamburger(props) {
       )}
     </div>
   );
-}
+};
 
 export default Hamburger;
