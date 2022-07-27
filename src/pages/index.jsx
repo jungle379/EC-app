@@ -76,8 +76,14 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="w-1/2 bg-white mx-[350px] flex justify-center h-[400px]">
+        <div className="w-1/2 my-10 bg-white mx-[350px] flex justify-center h-[400px]">
           イメージ１
+        </div>
+        <div className="w-1/2 bg-white mx-[350px] flex justify-center h-[400px]">
+          イメージ2
+        </div>
+        <div className="w-1/2 my-10 bg-white mx-[350px] flex justify-center h-[400px]">
+          イメージ3
         </div>
         <div className="py-20 px-20 flex justify-center">
           <div className="py-40 px-20">
