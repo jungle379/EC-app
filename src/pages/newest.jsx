@@ -52,7 +52,7 @@ const News = (props) => {
             </Link>
           </div>
           <div className="flex justify-center">
-            <div className="border-2 border-gray-600">
+            <div className="border-4 border-gray-600">
               <select className="mr-[2px] h-[37px]">
                 <option value="">---</option>
                 <option value="fasion">ファッション</option>
