@@ -62,17 +62,17 @@ const Home = () => {
           </div>
           <div className="mx-10 bg-white h-[300px] w-1/4">
             <Link href="/">
-              <a>注目のタイムセール</a>
+              <a>あなたの購入志向から</a>
             </Link>
           </div>
           <div className="mx-10 bg-white h-[300px] w-1/4">
             <Link href="/">
-              <a>Amazonessカードの入会</a>
+              <a>AmazonessPrimeについて</a>
             </Link>
           </div>
           <div className="mx-10 bg-white h-[300px] w-1/4">
             <Link href="/">
-              <a>カードA1</a>
+              <a>カードA3</a>
             </Link>
           </div>
         </div>
