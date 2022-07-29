@@ -17,7 +17,7 @@ const TestCarousel2 = () => {
       navigation //スライドを前後させるためのボタン、スライドの左右にある
       loop={true}
       autoplay={{ delay: 2000, disableOnInteraction: true }}
-      speed={700}
+      speed={300}
     >
       {images.map((src, index) => {
         return (
