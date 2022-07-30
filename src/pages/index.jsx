@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { useState } from "react";
 import TestCarousel from "../components/Swiper";
 import Lock from "../components/Lock";
 import Link from "next/link";
