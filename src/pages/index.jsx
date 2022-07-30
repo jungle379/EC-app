@@ -30,7 +30,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="mx-10 bg-white h-[300px] w-1/4">
-            <Link href="/">
+            <Link href="/card">
               <a>Amazonessカードの入会</a>
             </Link>
           </div>
