@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
@@ -10,8 +11,14 @@ const Card = () => {
       </Head>
       <div className="bg-green-100 h-auto">
         <Header />
-        <div className="text-4xl py-10 px-40 font-bold">Amazonessカード</div>
-        <div></div>
+        <div className="flex justify-between">
+          <div className="text-4xl py-10 px-40 font-bold">Amazonessカード</div>
+          <div className="py-10 text-2xl px-20">
+            <Link href="/">
+              <a>カードを申し込む</a>
+            </Link>
+          </div>
+        </div>
         <div></div>
         <div></div>
       </div>
