@@ -20,9 +20,9 @@ export const Views = () => {
         </div>
         <div className="px-40 py-10 my-20 mx-20 text-2xl border-white border-4 border-x-4 border-y-4">
           <Tabs active={activeTab} onTabChange={setActiveTab}>
-            <Tabs.Tab label="前日">前日の閲覧履歴</Tabs.Tab>
             <Tabs.Tab label="先週">先週の閲覧履歴</Tabs.Tab>
             <Tabs.Tab label="先月">先月の閲覧履歴</Tabs.Tab>
+            <Tabs.Tab label="半年">半年間の閲覧履歴</Tabs.Tab>
           </Tabs>
         </div>
         <div>
