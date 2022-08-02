@@ -4,8 +4,20 @@ import Header from "../../components/Header";
 import { Tabs } from "@mantine/core";
 import { useState } from "react";
 import Lock from "../../components/Lock";
+import { client } from "../../libs/client";
+import Link from "next/link";
 
-export const Views = () => {
+export const getStaticProps = async () => {
+  const data = await client.getList({
+    endpoint: "views",
+    queries: { q: "" },
+  });
+  return {
+    props: data,
+  };
+};
+
+const Views = (props) => {
   const [activeTab, setActiveTab] = useState();
 
   return (
@@ -20,7 +32,22 @@ export const Views = () => {
         </div>
         <div className="px-40 py-10 my-20 mx-20 text-2xl border-white border-4 border-x-4 border-y-4">
           <Tabs active={activeTab} onTabChange={setActiveTab}>
-            <Tabs.Tab label="先週">先週の閲覧履歴</Tabs.Tab>
+            <Tabs.Tab label="先週">
+              <div>
+                <p>{`先週の閲覧履歴: ${props.totalCount}件`}</p>
+                <ul>
+                  {props.contents.map((content) => {
+                    return (
+                      <li className="mt-10" key={content.id}>
+                        <Link href={`views/${content.id}`}>
+                          <a>{content.title}</a>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            </Tabs.Tab>
             <Tabs.Tab label="先月">先月の閲覧履歴</Tabs.Tab>
             <Tabs.Tab label="半年">半年間の閲覧履歴</Tabs.Tab>
           </Tabs>
