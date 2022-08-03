@@ -52,9 +52,6 @@ const Views = (props) => {
             <Tabs.Tab label="半年">半年間の閲覧履歴</Tabs.Tab>
           </Tabs>
         </div>
-        <div>
-          <Lock />
-        </div>
       </div>
       <div></div>
       <Footer />
