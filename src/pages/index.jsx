@@ -48,7 +48,9 @@ const Home = () => {
           </div>
         </div>
         <div className="text-2xl font-bold">
-          こちらもおすすめ
+          <Link href="/">
+            <a>こちらもおすすめ</a>
+          </Link>
           <TestCarousel2 />
         </div>
         <div className="flex justify-evenly my-20">
