@@ -18,7 +18,7 @@ const Registar = () => {
         <div className="mx-20 text-2xl w-[350px]">
           <div style={{ width: 400, position: "relative" }}>
             <LoadingOverlay visible={visible} />
-            {/* ...other content */}
+            ...other content
           </div>
 
           <Group position="center">
