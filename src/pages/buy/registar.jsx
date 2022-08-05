@@ -3,22 +3,71 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Lock from "../../components/Lock";
 import { useState } from "react";
-import { LoadingOverlay, Button, Group } from "@mantine/core";
+import {
+  LoadingOverlay,
+  Button,
+  Group,
+  NumberInput,
+  TextInput,
+} from "@mantine/core";
+import { useForm } from "@mantine/form";
 
 const Registar = () => {
   const [visible, setVisible] = useState(false);
+  const form = useForm({
+    initialValues: { name: "", email: "", age: 0 },
+
+    // functions will be used to validate values at corresponding key
+    validate: {
+      name: (value) =>
+        value.length < 2 ? "Name must have at least 2 letters" : null,
+      email: (value) => (/^\S+@\S+$/.test(value) ? null : "Invalid email"),
+      age: (value) =>
+        value < 18 ? "You must be at least 18 to register" : null,
+    },
+  });
   return (
     <>
       <Head>
-        <title>購入-1</title>
+        <title>入力フォーム</title>
       </Head>
-      <div className="bg-green-100 h-screen">
+      <div className="bg-green-100 h-auto">
         <Header />
         <div className="text-4xl font-bold pt-20 px-40">情報入力</div>
-        <div className="mx-20 text-2xl w-[350px]">
-          <div style={{ width: 400, position: "relative" }}>
+        <div className="mx-40 my-10 text-2xl w-[350px]">
+          <div
+            className="flex justify-center mx-20 my-10"
+            style={{ width: 400, position: "relative" }}
+          >
             <LoadingOverlay visible={visible} />
-            ...other content
+            <form onSubmit={form.onSubmit(console.log)}>
+              <TextInput
+                label="Name"
+                placeholder="Name"
+                {...form.getInputProps("name")}
+              />
+              <TextInput
+                mt="sm"
+                label="Email"
+                placeholder="Email"
+                {...form.getInputProps("email")}
+              />
+              <NumberInput
+                mt="sm"
+                label="Age"
+                placeholder="Age"
+                min={0}
+                max={99}
+                {...form.getInputProps("age")}
+              />
+              <Button
+                onClick={() => setVisible((v) => !v)}
+                type="submit"
+                mt="sm"
+              >
+                Submit
+              </Button>
+            </form>
           </div>
 
           <Group position="center">
