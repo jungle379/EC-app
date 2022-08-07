@@ -69,7 +69,6 @@ const Registar = () => {
               </Button>
             </form>
           </div>
-
           <Group position="center">
             <Button onClick={() => setVisible((v) => !v)}>
               Toggle overlay
