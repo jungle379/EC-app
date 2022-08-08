@@ -30,11 +30,11 @@ const Registar = () => {
   return (
     <>
       <Head>
-        <title>入力フォーム</title>
+        <title>入力内容確認</title>
       </Head>
       <div className="bg-green-100 h-auto">
         <Header />
-        <div className="text-4xl font-bold pt-20 px-40">情報入力</div>
+        <div className="text-4xl font-bold pt-20 px-40">入力内容確認</div>
         <div className="mx-40 my-10 text-2xl w-[350px]">
           <div
             className="flex justify-center mx-20 my-10"
@@ -68,11 +68,18 @@ const Registar = () => {
                 {...form.getInputProps("age")}
               />
               <Button
-                onClick={() => router.push("../buy/registar-2")}
+                onClick={() => router.push("../buy/registar")}
                 type="submit"
                 mt="sm"
               >
-                Submit
+                cancel
+              </Button>
+              <Button
+                onClick={() => router.push("../buy/registar")}
+                type="submit"
+                mt="sm"
+              >
+                submit
               </Button>
             </form>
           </div>
