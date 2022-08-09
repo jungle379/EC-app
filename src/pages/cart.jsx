@@ -6,6 +6,8 @@ import Footer from "../components/Footer";
 import { client } from "../libs/client";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import Hamburger from "../components/Burger";
+import { Button } from "@mantine/core";
+import { useRouter } from "next/router";
 
 export const getStaticProps = async () => {
   const data = await client.getList({
@@ -19,6 +21,7 @@ export const getStaticProps = async () => {
 
 const Cart = (props) => {
   const [search, setSearch] = useState();
+  const router = useRouter();
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -130,10 +133,12 @@ const Cart = (props) => {
       <div className="h-screen bg-green-100">
         <div className="flex justify-between">
           <div className="text-4xl font-bold pt-20 px-40">カート</div>
-          <div className="text-xl hover:text-red-500 my-10 mx-40 py-[5px] bg-yellow-200 w-[130px] flex justify-center border-2">
-            <Link href="/header2/history">
-              <a>購入履歴へ</a>
-            </Link>
+          <div className="my-10 mx-40 py-[5px]w-[130px] flex justify-center">
+          <Button
+                onClick={() => router.push("../header2/history")}
+                type="submit"
+                mt="sm"
+              >購入履歴へ</Button>
           </div>
         </div>
         <div className="px-40 py-10 text-2xl">
@@ -150,10 +155,12 @@ const Cart = (props) => {
             })}
           </ul>
         </div>
-        <div className="flex justify-center text-2xl hover:text-red-600 border-2 bg-yellow-200 w-[80px] mx-[700px] my-20">
-          <Link href="../buy/registar">
-            <a>購入</a>
-          </Link>
+        <div className="flex justify-center text-2xl w-[80px] mx-[700px] my-20">
+        <Button
+                onClick={() => router.push("../buy/registar")}
+                type="submit"
+                mt="sm"
+              >購入</Button>
         </div>
       </div>
       <Footer />
