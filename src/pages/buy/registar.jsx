@@ -37,7 +37,7 @@ const Registar = () => {
         <div className="text-4xl font-bold pt-20 px-40">情報入力</div>
         <div className="mx-40 my-10 text-2xl w-[350px]">
           <div
-            className="flex justify-center mx-20 my-10"
+            className="flex justify-center mx-10 my-10"
             style={{ width: 400, position: "relative" }}
           >
             <LoadingOverlay visible={visible} />
