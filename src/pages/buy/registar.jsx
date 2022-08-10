@@ -4,6 +4,7 @@ import Header from "../../components/Header";
 import Lock from "../../components/Lock";
 import { useRouter } from "next/router";
 import { useState } from "react";
+import { DatePicker } from "@mantine/dates";
 import {
   LoadingOverlay,
   Button,
@@ -67,6 +68,7 @@ const Registar = () => {
                 max={99}
                 {...form.getInputProps("age")}
               />
+              <DatePicker placeholder="Pick date" label="Event date" required />
               <Button
                 onClick={() => router.push("../buy/registar-2")}
                 type="submit"

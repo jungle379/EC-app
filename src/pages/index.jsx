@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import TestCarousel from "../components/Swiper";
 import Lock from "../components/Lock";
 import Link from "next/link";
+import { AspectRatio, Image } from '@mantine/core';
 import TestCarousel2 from "../components/Swiper2";
 
 const Home = () => {
@@ -75,8 +76,13 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div className="w-1/2 my-10 bg-white mx-[350px] flex justify-center h-[400px]">
-          イメージ１
+        <div className="my-20">
+        <AspectRatio ratio={720 / 1080} sx={{ maxWidth: 300 }} mx="auto">
+      <Image
+        src="https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80"
+        alt="Panda"
+      />
+    </AspectRatio>
         </div>
         <div className="w-1/2 bg-white mx-[350px] flex justify-center h-[400px]">
           イメージ2
