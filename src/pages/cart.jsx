@@ -77,21 +77,28 @@ const Cart = (props) => {
               </form>
             </div>
             <div className="flex justify-end">
-              <div className="pt-[5px] w-[80px] border-4 bg-gray-200 border-orange-300 border-x-4 border-y-4 flex justify-center hover:text-red-500">
-                <AiOutlineShoppingCart />
-                <Link href="/cart">
-                  <a>カート</a>
-                </Link>
-              </div>
-              <div className="mx-5">
-                <SignedOut>
-                  <Link href="/sign-in">Sign in</Link>
-                </SignedOut>
-                <SignedIn>
-                  <UserButton />
-                </SignedIn>
-              </div>
+            <div className="border-4 bg-gray-200 border-orange-300 border-x-4 border-y-4 pt-[5px] w-[80px] mr-5 flex justify-center hover:text-red-500">
+              <Link href="/header2/history">
+                <a>購入履歴</a>
+              </Link>
             </div>
+            <div className="pt-[5px] w-[80px] border-4 bg-gray-200 border-orange-300 border-x-4 border-y-4 flex justify-center hover:text-red-500">
+              <div className="pt-[3px]">
+                <AiOutlineShoppingCart />
+              </div>
+              <Link href="/cart">
+                <a>カート</a>
+              </Link>
+            </div>
+            <div className="mx-5">
+              <SignedOut>
+                <Link href="/sign-in">Sign in</Link>
+              </SignedOut>
+              <SignedIn>
+                <UserButton />
+              </SignedIn>
+            </div>
+          </div>
           </div>
         </div>
         <div className="flex justify-between h-[50px] bg-gray-200">
@@ -160,7 +167,7 @@ const Cart = (props) => {
                 onClick={() => router.push("../buy/registar")}
                 type="submit"
                 mt="sm"
-              >購入</Button>
+              >購入へ</Button>
         </div>
       </div>
       <Footer />
