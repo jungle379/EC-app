@@ -77,7 +77,7 @@ const Cart = (props) => {
               </form>
             </div>
             <div className="flex justify-end">
-              <div className="pt-[5px] w-[80px] flex hover:text-red-500">
+              <div className="pt-[5px] w-[80px] border-4 bg-gray-200 border-orange-300 border-x-4 border-y-4 flex justify-center hover:text-red-500">
                 <AiOutlineShoppingCart />
                 <Link href="/cart">
                   <a>カート</a>
