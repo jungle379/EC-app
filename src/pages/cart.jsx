@@ -148,7 +148,7 @@ const Cart = (props) => {
               >購入履歴へ</Button>
           </div>
         </div>
-        <div className="px-40 py-10 text-2xl">
+        <div className="mx-20 my-10 px-40 py-10 text-2xl border-2 border-red-500">
           <p>{`カート内に保存した商品: ${props.totalCount}個`}</p>
           <ul>
             {contents.map((content) => {
