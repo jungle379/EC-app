@@ -70,10 +70,19 @@ const Home = () => {
               <a>AmazonessPrimeについて</a>
             </Link>
           </div>
-          <div className="mx-10 bg-white h-[300px] w-1/4">
+          <div className="mx-10 mt-10 bg-white h-[200px] w-1/4">
             <Link href="/">
               <a>カードA3</a>
             </Link>
+            <AspectRatio ratio={16 / 9}>
+      <iframe
+        src="https://www.youtube.com/embed/Dorf8i6lCuk"
+        title="YouTube video player"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      />
+    </AspectRatio>
           </div>
         </div>
         <div className="my-20">
@@ -105,7 +114,7 @@ const Home = () => {
     </AspectRatio>
     </div>
         <div className="py-20 px-20 flex justify-center">
-          <div className="py-40 px-20">
+          <div className="my-20 mx-20">
             <Lock />
           </div>
         </div>
