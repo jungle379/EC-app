@@ -102,17 +102,6 @@ const Home = () => {
       />
     </AspectRatio>
         </div>
-        <div className="my-20 mx-40">
-        <AspectRatio ratio={16 / 9}>
-      <iframe
-        src="https://www.youtube.com/embed/Dorf8i6lCuk"
-        title="YouTube video player"
-        frameBorder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowFullScreen
-      />
-    </AspectRatio>
-    </div>
         <div className="py-20 px-20 flex justify-center">
           <div className="my-20 mx-20">
             <Lock />
