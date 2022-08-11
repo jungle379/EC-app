@@ -22,7 +22,14 @@ const Home = () => {
         <div className="flex justify-evenly my-20">
           <div className="mx-10 bg-white h-[300px] w-1/4">
             <Link href="/header2/history">
-              <a>再び購入</a>
+              <a>再び購入
+            <AspectRatio ratio={720 / 720} sx={{ maxWidth: 300 }} mx="auto">
+      <Image
+        src="https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80"
+        alt="Panda"
+      />
+    </AspectRatio>
+    </a>
             </Link>
           </div>
           <div className="mx-10 bg-white h-[300px] w-1/4">
