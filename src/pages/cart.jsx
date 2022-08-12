@@ -102,7 +102,7 @@ const Cart = (props) => {
           </div>
         </div>
         <div className="flex justify-between h-[50px] bg-gray-200">
-          <div className="">
+          <div>
             <Hamburger />
           </div>
           <div className="pr-10 py-[15px] hover:text-red-500 text-sm">
