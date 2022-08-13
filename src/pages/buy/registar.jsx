@@ -68,6 +68,11 @@ const Registar = () => {
                 max={99}
                 {...form.getInputProps("age")}
               />
+              {/* <FileInput
+      placeholder="Pick file"
+      label="Your resume"
+      required
+    /> */}
               <DatePicker placeholder="Pick date" label="Event date" required />
               <Button
                 onClick={() => router.push("../buy/registar-2")}
