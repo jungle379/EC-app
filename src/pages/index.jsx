@@ -20,7 +20,7 @@ const Home = () => {
           <TestCarousel />
         </div>
         <div className="flex justify-evenly my-20">
-          <div className="mx-10 bg-white h-[300px] w-1/4">
+          <div className="mx-10 font-bold h-[300px] w-1/4">
             <Link href="/header2/history">
               <a>再び購入
             <AspectRatio ratio={720 / 720} sx={{ maxWidth: 300 }} mx="auto">
