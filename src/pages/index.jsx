@@ -59,9 +59,6 @@ const Home = () => {
           </Link>
           <TestCarousel2 />
         </div>
-        <div className="py-10 flex justify-center">
-          <Lock />
-        </div>
         <div className="flex justify-evenly py-10">
           <div className="mx-10 bg-white h-[300px] w-1/4">
             <Link href="/">
