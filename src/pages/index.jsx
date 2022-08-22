@@ -33,14 +33,30 @@ const Home = () => {
               </a>
             </Link>
           </div>
-          <div className="mx-10 bg-white h-[300px] w-1/4">
+          <div className="mx-10 h-[300px] w-1/4">
             <Link href="/">
-              <a>注目のタイムセール</a>
+              <a>
+                注目のタイムセール
+                <AspectRatio ratio={720 / 720} sx={{ maxWidth: 300 }} mx="auto">
+                  <Image
+                    src="https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80"
+                    alt="Panda"
+                  />
+                </AspectRatio>
+              </a>
             </Link>
           </div>
-          <div className="mx-10 bg-white h-[300px] w-1/4">
+          <div className="mx-10 h-[300px] w-1/4">
             <Link href="/card">
-              <a>Amazonessカードの入会</a>
+              <a>
+                Amazonessカードの入会{" "}
+                <AspectRatio ratio={720 / 720} sx={{ maxWidth: 300 }} mx="auto">
+                  <Image
+                    src="https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80"
+                    alt="Panda"
+                  />
+                </AspectRatio>
+              </a>
             </Link>
           </div>
           <div className="mx-10 bg-white h-[300px] w-1/4">
@@ -76,9 +92,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="mx-10 mt-10 h-[200px] w-1/4">
-            <Link href="/">
-              <a>こちらもオススメ</a>
-            </Link>
+            こちらもオススメ
             <AspectRatio ratio={16 / 9}>
               <iframe
                 src="https://www.youtube.com/embed/Dorf8i6lCuk"
