@@ -5,6 +5,7 @@ import TestCarousel from "../components/Swiper";
 import Link from "next/link";
 import { AspectRatio, Image } from "@mantine/core";
 import TestCarousel2 from "../components/Swiper2";
+import TestCarousel3 from "../components/Swiper3";
 
 const Home = () => {
   return (
@@ -80,10 +81,11 @@ const Home = () => {
               <a>マイページへ</a>
             </Link>
           </div>
-          <div className="mx-10 bg-white h-[300px] w-1/4">
-            <Link href="/">
+          <div className="mx-10 h-[300px] w-1/4">
+            <Link href="/header2/history">
               <a>あなたの購入志向から</a>
             </Link>
+            <TestCarousel3 />
           </div>
           <div className="mx-10 bg-white h-[300px] w-1/4">
             <Link href="/">
