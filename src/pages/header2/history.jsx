@@ -38,8 +38,37 @@ const History = () => {
                 </Link>
               </div>
             </Tabs.Tab>
-            <Tabs.Tab label="半年">過去半年の購入履歴</Tabs.Tab>
-            <Tabs.Tab label="昨年">昨年の購入履歴</Tabs.Tab>
+            <Tabs.Tab label="半年">過去半年の購入履歴              <div className="py-5">
+                <Link href="/">
+                  <a>・商品1</a>
+                </Link>
+              </div>
+              <div className="py-5">
+                <Link href="/">
+                  <a>・商品2</a>
+                </Link>
+              </div>
+              <div className="py-5">
+                <Link href="/">
+                  <a>・商品3</a>
+                </Link>
+              </div></Tabs.Tab>
+            <Tabs.Tab label="昨年">昨年の購入履歴
+                          <div className="py-5">
+                <Link href="/">
+                  <a>・商品1</a>
+                </Link>
+              </div>
+              <div className="py-5">
+                <Link href="/">
+                  <a>・商品2</a>
+                </Link>
+              </div>
+              <div className="py-5">
+                <Link href="/">
+                  <a>・商品3</a>
+                </Link>
+              </div></Tabs.Tab>
           </Tabs>
         </div>
         <div className="px-10 py-10">
