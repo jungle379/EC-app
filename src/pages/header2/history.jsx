@@ -39,7 +39,7 @@ const History = () => {
               </div>
             </Tabs.Tab>
             <Tabs.Tab label="半年">
-              過去半年の購入履歴{" "}
+              過去半年の購入履歴
               <div className="py-5">
                 <Link href="/">
                   <a>・商品1</a>
