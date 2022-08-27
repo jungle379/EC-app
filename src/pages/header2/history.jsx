@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Lock from "../../components/Lock";
 import { Tabs } from "@mantine/core";
 import { useState } from "react";
 import Link from "next/link";
@@ -75,9 +74,6 @@ const History = () => {
               </div>
             </Tabs.Tab>
           </Tabs>
-        </div>
-        <div className="px-10 py-10">
-          <Lock />
         </div>
       </div>
       <Footer />
