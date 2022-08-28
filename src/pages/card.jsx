@@ -19,8 +19,6 @@ const Card = () => {
             </Link>
           </div>
         </div>
-        <div></div>
-        <div></div>
       </div>
       <Footer />
     </>
