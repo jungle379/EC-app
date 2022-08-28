@@ -7,7 +7,7 @@ const Credit = () => (
     <Head>
       <title>クレジットカード決済</title>
     </Head>
-    <div className="bg-green-100">
+    <div className="bg-green-100 h-auto">
       <Header />
       <div className="text-2xl py-20 px-40 font-bold">
         クレジットカードでの支払いについて
