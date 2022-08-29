@@ -49,12 +49,12 @@ const Footer = () => (
         <div className="">
           <h1 className="text-2xl py-5">ビジネス</h1>
           <h2 className="py-5">
-            <Link href="">
+            <Link href="../footer2/bussiness">
               <a>商用利用について</a>
             </Link>
           </h2>
           <h3 className="py-5">
-            <Link href="">
+            <Link href="../footer2/tob">
               <a>ToB製品群について</a>
             </Link>
           </h3>
