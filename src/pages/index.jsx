@@ -16,9 +16,9 @@ const Home = () => {
       </Head>
       <Header />
       <main className="h-auto bg-green-100">
-        {/* <div>
+        <div>
           <TestCarousel />
-        </div> */}
+        </div>
         <div className="flex justify-evenly my-20">
           <div className="mx-10 font-bold h-[300px] w-1/4">
             <Link href="/header2/history">
