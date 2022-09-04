@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
-import Lock from "../../components/Lock";
 import { useRouter } from "next/router";
 import { useState } from "react";
 import {
@@ -88,9 +87,6 @@ const Registar = () => {
               Toggle overlay
             </Button>
           </Group>
-        </div>
-        <div className="px-10 py-10">
-          <Lock />
         </div>
       </div>
       <Footer />
