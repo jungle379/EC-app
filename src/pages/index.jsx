@@ -14,8 +14,8 @@ const Home = () => {
         <title>トップページ</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Header />
       <main className="h-auto bg-green-100">
+        <Header />
         <div>
           <TestCarousel />
         </div>
