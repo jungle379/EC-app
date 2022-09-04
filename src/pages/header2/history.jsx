@@ -17,7 +17,7 @@ const History = () => {
         <div className="flex justify-center text-4xl py-20 px-40 font-bold">
           購入履歴
         </div>
-        <div className="px-40 py-10 my-20 mx-20 text-2xl border-white border-4 border-x-4 border-y-4">
+        <div className="px-40 py-10 mb-10 mx-20 text-2xl border-white border-4 border-x-4 border-y-4">
           <Tabs active={activeTab} onTabChange={setActiveTab}>
             <Tabs.Tab label="先月">
               先月の購入履歴
@@ -75,8 +75,8 @@ const History = () => {
             </Tabs.Tab>
           </Tabs>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };
