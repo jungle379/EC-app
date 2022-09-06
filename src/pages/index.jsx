@@ -34,7 +34,7 @@ const Home = () => {
             </Link>
           </div>
           <div className="mx-10 h-[300px] w-1/4">
-            <Link href="/">
+            <Link href="/timesale">
               <a>
                 注目のタイムセール
                 <AspectRatio ratio={720 / 720} sx={{ maxWidth: 300 }} mx="auto">
