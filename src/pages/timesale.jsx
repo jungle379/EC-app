@@ -2,7 +2,7 @@ import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 
-const Time = () => (
+const Timesale = () => (
   <>
     <Head>
       <title>タイムセール</title>
@@ -15,4 +15,4 @@ const Time = () => (
   </>
 );
 
-export default Time;
+export default Timesale;
