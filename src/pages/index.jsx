@@ -75,24 +75,19 @@ const Home = () => {
           </Link>
           <TestCarousel2 />
         </div>
-        <div className="flex justify-evenly py-10">
-          <div className="mx-10 bg-white h-[300px] w-1/4">
-            <Link href="/">
+        <div className="flex justify-evenly py-20">
+          <div className="mx-10 h-[300px] w-1/3">
+            <Link href="/user/mypage">
               <a>マイページへ</a>
             </Link>
           </div>
-          <div className="mx-10 h-[300px] w-1/4">
+          <div className="mx-10 h-[300px] w-1/3">
             <Link href="/header2/history">
               <a>あなたの購入志向から</a>
             </Link>
             <TestCarousel3 />
           </div>
-          <div className="mx-10 bg-white h-[300px] w-1/4">
-            <Link href="/">
-              <a>AmazonessPrimeについて</a>
-            </Link>
-          </div>
-          <div className="mx-10 mt-10 h-[200px] w-1/4">
+          <div className="mx-10 h-[300px] w-1/3">
             こちらもオススメ
             <AspectRatio ratio={16 / 9}>
               <iframe
