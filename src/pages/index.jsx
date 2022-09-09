@@ -76,7 +76,7 @@ const Home = () => {
           <TestCarousel2 />
         </div>
         <div className="flex justify-evenly py-20">
-          <div className="mx-10 h-[300px] w-1/3">
+          <div className="mx-10 h-[300px] w-1/3 font-bold">
             <Link href="/user/mypage">
               <a>マイページへ</a>
             </Link>
