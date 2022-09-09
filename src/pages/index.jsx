@@ -1,9 +1,9 @@
 import Head from "next/head";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import TestCarousel from "../components/Swiper";
 import Link from "next/link";
 import { AspectRatio, Image } from "@mantine/core";
+import TestCarousel from "../components/Swiper";
 import TestCarousel2 from "../components/Swiper2";
 import TestCarousel3 from "../components/Swiper3";
 
