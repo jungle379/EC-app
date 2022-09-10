@@ -70,7 +70,7 @@ const Home = () => {
           </div>
         </div>
         <div className="text-2xl font-bold">
-          <Link href="/">
+          <Link href="/category">
             <a>こちらもおすすめ</a>
           </Link>
           <TestCarousel2 />
