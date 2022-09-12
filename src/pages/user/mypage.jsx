@@ -13,7 +13,7 @@ const Mypage = () => (
       <div className="flex justify-between">
         <div className="text-2xl py-20 px-40 font-bold">マイページ</div>
         <div className="py-20 px-20">
-          <Link href="/">購入履歴へ</Link>
+          <Link href="/">ユーザ情報編集</Link>
         </div>
         <div></div>
       </div>
