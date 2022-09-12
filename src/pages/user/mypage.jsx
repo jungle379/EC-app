@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Link from "next/link";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
@@ -10,6 +11,9 @@ const Mypage = () => (
     <div className="bg-green-100 h-auto">
       <Header />
       <div className="text-2xl py-20 px-40 font-bold">マイページ</div>
+      <div>
+        <Link href="/">購入履歴へ</Link>
+      </div>
     </div>
     <Footer />
   </>
