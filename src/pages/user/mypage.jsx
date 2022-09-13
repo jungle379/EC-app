@@ -13,8 +13,8 @@ const Mypage = () => (
     <div className="min-h-screen">
       <div className="flex justify-between">
         <div className="text-4xl py-10 px-40 font-bold">マイページ</div>
-        <div className="py-10 px-20">
-          <Link href="/">ユーザ情報編集</Link>
+        <div className="py-10 px-20 hover:text-red-400 hover:underline">
+          <Link href="/user">ユーザ情報編集</Link>
         </div>
       </div>
       <div className="mx-40">
