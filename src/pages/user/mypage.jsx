@@ -9,8 +9,8 @@ const Mypage = () => (
     <Head>
       <title>マイページ</title>
     </Head>
-    <div className="h-screen">
-      <Header />
+    <Header />
+    <div className="min-h-screen">
       <div className="flex justify-between">
         <div className="text-4xl py-20 px-40 font-bold">マイページ</div>
         <div className="py-20 px-20">
@@ -52,6 +52,60 @@ const Mypage = () => (
             <h1 className="text-sm text-gray-400">
               配送状況の確認・返品手続き
             </h1>
+          </div>
+          <div className="py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
+            <h1 className="text-sm text-gray-400">
+              配送状況の確認・返品手続き
+            </h1>
+          </div>
+          <div className="py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
+            <h1 className="text-sm text-gray-400">
+              配送状況の確認・返品手続き
+            </h1>
+          </div>
+          <div className="py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
+            <h1 className="text-sm text-gray-400">
+              配送状況の確認・返品手続き
+            </h1>
+          </div>
+        </SimpleGrid>
+      </div>
+      <div className="border-t-2 my-10 mx-40">
+        <SimpleGrid cols={3}>
+          <div className="mt-10 py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
+          </div>
+          <div className="mt-10 py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
+          </div>
+          <div className="mt-10 py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
+          </div>
+        </SimpleGrid>
+      </div>
+      <div className="mx-40">
+        <SimpleGrid cols={3}>
+          <div className="py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
+          </div>
+          <div className="py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
+          </div>
+          <div className="py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
+          </div>
+        </SimpleGrid>
+      </div>
+      <div className="mx-40">
+        <SimpleGrid cols={2}>
+          <div className="my-10 py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
+          </div>
+          <div className="my-10 py-10 border-4 border-gray-200">
+            <Link href="/">ギフト券</Link>
           </div>
         </SimpleGrid>
       </div>
