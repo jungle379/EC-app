@@ -11,12 +11,7 @@ const Mypage = () => (
     </Head>
     <Header />
     <div className="min-h-screen">
-      <div className="flex justify-between">
-        <div className="text-4xl py-10 px-40 font-bold">マイページ</div>
-        <div className="py-10 px-20 hover:text-red-400 hover:underline">
-          <Link href="/user">ユーザ情報編集</Link>
-        </div>
-      </div>
+      <div className="text-4xl py-10 px-40 font-bold">マイページ</div>
       <div className="mx-40">
         <SimpleGrid cols={3}>
           <div className="py-10 border-4 border-gray-200">
