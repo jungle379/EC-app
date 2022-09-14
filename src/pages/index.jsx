@@ -51,7 +51,7 @@ const Home = () => {
           <div className="mx-10 h-[300px] w-1/4">
             <Link href="/card">
               <a>
-                Amazonessカードの入会{" "}
+                Amazonessカードの入会
                 <AspectRatio ratio={720 / 720} sx={{ maxWidth: 300 }} mx="auto">
                   <Image
                     src="https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80"
@@ -80,7 +80,15 @@ const Home = () => {
         <div className="flex justify-evenly py-20">
           <div className="mx-10 h-[300px] w-1/3 font-bold">
             <Link href="/user/mypage">
-              <a>マイページへ</a>
+              <a>
+                マイページへ
+                <AspectRatio ratio={720 / 720} sx={{ maxWidth: 300 }} mx="auto">
+                  <Image
+                    src="https://images.unsplash.com/photo-1527118732049-c88155f2107c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=720&q=80"
+                    alt="Panda"
+                  />
+                </AspectRatio>
+              </a>
             </Link>
           </div>
           <div className="mx-10 h-[300px] w-1/3 font-bold">
