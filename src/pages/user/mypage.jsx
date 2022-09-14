@@ -20,13 +20,13 @@ const Mypage = () => (
       <div className="mx-40">
         <SimpleGrid cols={3}>
           <div className="py-10 border-4 border-gray-200">
-            <Link href="/">注文履歴</Link>
+            <Link href="/header2/history">注文履歴</Link>
             <h1 className="text-sm text-gray-400">
               配送状況の確認・返品手続き
             </h1>
           </div>
           <div className="py-10 border-4 border-gray-200">
-            <Link href="/">ログインとセキュリティ</Link>
+            <Link href="/user">ログインとセキュリティ</Link>
             <h1 className="text-sm text-gray-400">アカウント情報の変更</h1>
           </div>
           <div className="py-10 border-4 border-gray-200">
@@ -36,7 +36,7 @@ const Mypage = () => (
             </h1>
           </div>
           <div className="py-10 border-4 border-gray-200">
-            <Link href="/">アドレス帳</Link>
+            <Link href="/user">アドレス帳</Link>
             <h1 className="text-sm text-gray-400">登録住所の追加・変更</h1>
           </div>
           <div className="py-10 border-4 border-gray-200">
