@@ -77,28 +77,28 @@ const Cart = (props) => {
               </form>
             </div>
             <div className="flex justify-end">
-            <div className="border-4 bg-gray-200 border-orange-300 border-x-4 border-y-4 pt-[5px] w-[80px] mr-5 flex justify-center hover:text-red-500">
-              <Link href="/header2/history">
-                <a>購入履歴</a>
-              </Link>
-            </div>
-            <div className="pt-[5px] w-[80px] border-4 bg-gray-200 border-orange-300 border-x-4 border-y-4 flex justify-center hover:text-red-500">
-              <div className="pt-[3px]">
-                <AiOutlineShoppingCart />
+              <div className="border-4 bg-gray-200 border-orange-300 border-x-4 border-y-4 pt-[5px] w-[80px] mr-5 flex justify-center hover:text-red-500">
+                <Link href="/header2/history">
+                  <a>購入履歴</a>
+                </Link>
               </div>
-              <Link href="/cart">
-                <a>カート</a>
-              </Link>
+              <div className="pt-[5px] w-[80px] border-4 bg-gray-200 border-orange-300 border-x-4 border-y-4 flex justify-center hover:text-red-500">
+                <div className="pt-[3px]">
+                  <AiOutlineShoppingCart />
+                </div>
+                <Link href="/cart">
+                  <a>カート</a>
+                </Link>
+              </div>
+              <div className="mx-5">
+                <SignedOut>
+                  <Link href="/sign-in">Sign in</Link>
+                </SignedOut>
+                <SignedIn>
+                  <UserButton />
+                </SignedIn>
+              </div>
             </div>
-            <div className="mx-5">
-              <SignedOut>
-                <Link href="/sign-in">Sign in</Link>
-              </SignedOut>
-              <SignedIn>
-                <UserButton />
-              </SignedIn>
-            </div>
-          </div>
           </div>
         </div>
         <div className="flex justify-between h-[50px] bg-gray-200">
@@ -141,14 +141,16 @@ const Cart = (props) => {
         <div className="flex justify-between">
           <div className="text-4xl font-bold pt-20 px-40">カート</div>
           <div className="my-10 mx-40 py-[5px]w-[130px] flex justify-center">
-          <Button
-                onClick={() => router.push("../header2/history")}
-                type="submit"
-                mt="sm"
-              >購入履歴へ</Button>
+            <Button
+              onClick={() => router.push("../header2/history")}
+              type="submit"
+              mt="sm"
+            >
+              購入履歴へ
+            </Button>
           </div>
         </div>
-        <div className="mx-20 my-10 px-40 py-10 text-2xl border-2 border-red-500">
+        <div className="mx-40 my-10 px-40 py-10 text-2xl border-2 border-gray-400">
           <p>{`カート内に保存した商品: ${props.totalCount}個`}</p>
           <ul>
             {contents.map((content) => {
@@ -163,11 +165,13 @@ const Cart = (props) => {
           </ul>
         </div>
         <div className="flex justify-center text-2xl w-[80px] mx-[700px] my-20">
-        <Button
-                onClick={() => router.push("../buy/registar")}
-                type="submit"
-                mt="sm"
-              >購入へ</Button>
+          <Button
+            onClick={() => router.push("../buy/registar")}
+            type="submit"
+            mt="sm"
+          >
+            購入へ
+          </Button>
         </div>
       </div>
       <Footer />
