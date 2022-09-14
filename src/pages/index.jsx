@@ -83,13 +83,13 @@ const Home = () => {
               <a>マイページへ</a>
             </Link>
           </div>
-          <div className="mx-10 h-[300px] w-1/3">
+          <div className="mx-10 h-[300px] w-1/3 font-bold">
             <Link href="/header2/history">
               <a>あなたの購入志向から</a>
             </Link>
             <TestCarousel3 />
           </div>
-          <div className="mx-10 h-[300px] w-1/3">
+          <div className="mx-10 h-[300px] w-1/3 font-bold">
             こちらもオススメ
             <AspectRatio ratio={16 / 9}>
               <iframe
