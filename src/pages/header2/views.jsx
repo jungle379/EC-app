@@ -38,7 +38,7 @@ const Views = (props) => {
                   {props.contents.map((content) => {
                     return (
                       <li className="mt-10" key={content.id}>
-                        <Link href={`/views/${content.id}`}>
+                        <Link href={`views/${content.id}`}>
                           <a>{content.title}</a>
                         </Link>
                       </li>
@@ -54,7 +54,7 @@ const Views = (props) => {
                   {props.contents.map((content) => {
                     return (
                       <li className="mt-10" key={content.id}>
-                        <Link href={`/views/${content.id}`}>
+                        <Link href={`views/${content.id}`}>
                           <a>{content.title}</a>
                         </Link>
                       </li>
@@ -70,7 +70,7 @@ const Views = (props) => {
                   {props.contents.map((content) => {
                     return (
                       <li className="mt-10" key={content.id}>
-                        <Link href={`/views/${content.id}`}>
+                        <Link href={`views/${content.id}`}>
                           <a>{content.title}</a>
                         </Link>
                       </li>
