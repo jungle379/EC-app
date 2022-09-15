@@ -41,7 +41,7 @@ const Mypage = () => (
             </h1>
           </div>
           <div className="py-10 border-4 border-gray-200">
-            <Link href="/">ギフト券</Link>
+            <Link href="/mypage/gift">ギフト券</Link>
             <h1 className="text-sm text-gray-400">
               残高の確認・ギフト券の発行
             </h1>
