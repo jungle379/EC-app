@@ -32,7 +32,7 @@ const Views = (props) => {
         <div className="px-40 py-10 my-20 mx-20 text-2xl border-white border-4 border-x-4 border-y-4">
           <Tabs active={activeTab} onTabChange={setActiveTab}>
             <Tabs.Tab label="先週">
-              <div className="h-[600px]">
+              <div className="h-[400px]">
                 <p>{`先週の閲覧履歴: ${props.totalCount}件`}</p>
                 <ul>
                   {props.contents.map((content) => {
@@ -48,7 +48,7 @@ const Views = (props) => {
               </div>
             </Tabs.Tab>
             <Tabs.Tab label="先月">
-              <div className="h-[600px]">
+              <div className="h-[400px]">
                 <p>{`先月の閲覧履歴: ${props.totalCount}件`}</p>
                 <ul>
                   {props.contents.map((content) => {
@@ -64,7 +64,7 @@ const Views = (props) => {
               </div>
             </Tabs.Tab>
             <Tabs.Tab label="半年">
-              <div className="h-[600px]">
+              <div className="h-[400px]">
                 <p>{`半年間の閲覧履歴: ${props.totalCount}件`}</p>
                 <ul>
                   {props.contents.map((content) => {
@@ -81,9 +81,8 @@ const Views = (props) => {
             </Tabs.Tab>
           </Tabs>
         </div>
+        <Footer />
       </div>
-      <div></div>
-      <Footer />
     </>
   );
 };

@@ -79,7 +79,7 @@ const Home = () => {
         </div>
         <div className="flex justify-evenly py-20">
           <div className="mx-10 h-[300px] w-1/3 font-bold">
-            <Link href="/user/mypage">
+            <Link href="/mypage">
               <a>
                 マイページへ
                 <AspectRatio ratio={720 / 720} sx={{ maxWidth: 300 }} mx="auto">
