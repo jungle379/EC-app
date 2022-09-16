@@ -137,7 +137,7 @@ const Cart = (props) => {
           </div>
         </div>
       </div>
-      <div className="h-screen bg-green-100">
+      <div className="min-h-screen">
         <div className="flex justify-between">
           <div className="text-4xl font-bold pt-20 px-40">カート</div>
           <div className="my-10 mx-40 py-[5px]w-[130px] flex justify-center">

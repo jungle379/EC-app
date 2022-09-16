@@ -31,7 +31,7 @@ const Registar = () => {
       <Head>
         <title>入力内容確認</title>
       </Head>
-      <div className="bg-green-100 h-auto">
+      <div className="min-h-screen">
         <Header />
         <div className="text-4xl font-bold pt-20 px-40">入力内容確認</div>
         <div className="mx-40 my-10 text-2xl w-[350px]">
