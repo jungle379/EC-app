@@ -74,7 +74,7 @@ const Registar = () => {
                 cancel
               </Button>
               <Button
-                onClick={() => router.push("../buy/registar")}
+                onClick={() => router.push("../buy/end")}
                 type="submit"
                 mt="sm"
               >
@@ -88,8 +88,8 @@ const Registar = () => {
             </Button>
           </Group>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };

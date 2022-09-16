@@ -32,7 +32,7 @@ const Registar = () => {
       <Head>
         <title>入力フォーム</title>
       </Head>
-      <div className="bg-green-100 h-auto">
+      <div className="bg-green-100 min-h-screen">
         <Header />
         <div className="text-4xl font-bold pt-20 px-40">情報入力</div>
         <div className="mx-40 my-10 text-2xl w-[350px]">
@@ -88,8 +88,8 @@ const Registar = () => {
             </Button>
           </Group>
         </div>
+        <Footer />
       </div>
-      <Footer />
     </>
   );
 };
