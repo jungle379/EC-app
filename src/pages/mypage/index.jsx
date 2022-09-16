@@ -35,7 +35,7 @@ const Mypage = () => (
             <h1 className="text-sm text-gray-400">登録住所の追加・変更</h1>
           </div>
           <div className="py-10 border-4 border-gray-200">
-            <Link href="/">お客様の支払い方法</Link>
+            <Link href="/mypage/payment">お客様の支払い方法</Link>
             <h1 className="text-sm text-gray-400">
               支払い方法と設定の管理、全てのトランザクションの表示
             </h1>
@@ -57,7 +57,9 @@ const Mypage = () => (
             </h1>
           </div>
           <div className="py-10 border-4 border-gray-200">
-            <Link href="/">モバイルアプリ</Link>
+            <Link href="https://www.apple.com/jp/app-store/">
+              モバイルアプリ
+            </Link>
             <h1 className="text-sm text-gray-400">アプリをダウンロード</h1>
           </div>
         </SimpleGrid>
