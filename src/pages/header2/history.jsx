@@ -67,11 +67,6 @@ const History = () => {
                   <a>・商品2</a>
                 </Link>
               </div>
-              <div className="py-5">
-                <Link href="/">
-                  <a>・商品3</a>
-                </Link>
-              </div>
             </Tabs.Tab>
           </Tabs>
         </div>
