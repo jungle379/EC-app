@@ -66,9 +66,18 @@ const Mypage = () => (
       </div>
       <div className="border-t-2 my-10 mx-40">
         <SimpleGrid cols={3}>
-          <div className="mt-10 py-10 border-4 border-gray-200">
+          <div className="mt-10 py-[20px] px-[10px] border-4 border-gray-200">
             <div className="font-bold">
               <Link href="/">デジタルコンテンツとデバイス</Link>
+            </div>
+            <div className="text-blue-300 hover:text-red-500 hover:underline">
+              <Link href="/">Audible設定</Link>
+            </div>
+            <div className="text-blue-300 hover:text-red-500 hover:underline">
+              <Link href="/">Amazoness Driveの管理</Link>
+            </div>
+            <div className="text-blue-300 hover:text-red-500 hover:underline">
+              <Link href="/">アプリライブラリと端末の管理</Link>
             </div>
           </div>
           <div className="mt-10 py-10 border-4 border-gray-200">
