@@ -101,7 +101,7 @@ const Mypage = () => (
           </div>
           <div className="py-10 border-4 border-gray-200">
             <div className="font-bold">
-              <Link href="/">その他のアカウント</Link>
+              <Link href="/user">その他のアカウント</Link>
             </div>
           </div>
           <div className="py-10 border-4 border-gray-200">
