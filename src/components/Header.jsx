@@ -9,7 +9,7 @@ const Header = () => {
       <div className="bg-gray-400 flex justify-evenly px-5 py-10">
         <div className="text-2xl font-bold pr-20">
           <Link href="/">
-            <a>Amazoness</a>
+            <a>EC-app</a>
           </Link>
         </div>
         <div className="flex justify-center">
@@ -67,7 +67,7 @@ const Header = () => {
         </div>
         <div className="pr-10 py-[15px] hover:text-red-500 text-sm">
           <Link href="../header2/points">
-            <a>Amazoness_point</a>
+            <a>pointカード</a>
           </Link>
         </div>
         <div className="px-10 py-[15px] hover:text-red-500 text-sm">

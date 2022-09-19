@@ -7,12 +7,12 @@ const Card = () => {
   return (
     <>
       <Head>
-        <title>Amazonessカードについて</title>
+        <title>当サイトカードについて</title>
       </Head>
       <div className="bg-green-100 h-auto">
         <Header />
         <div className="flex justify-between">
-          <div className="text-4xl py-10 px-40 font-bold">Amazonessカード</div>
+          <div className="text-4xl py-10 px-40 font-bold">当サイトカード</div>
           <div className="py-10 text-2xl px-20">
             <Link href="/">
               <a>カードを申し込む</a>

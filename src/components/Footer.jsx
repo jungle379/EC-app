@@ -11,7 +11,7 @@ const Footer = () => (
     <div className="bg-gray-700 text-white py-5 px-20">
       <div className="flex justify-evenly py-[20px]">
         <div>
-          <h1 className="text-2xl py-5">Amazonessについて</h1>
+          <h1 className="text-2xl py-5">当サイトについて</h1>
           <h2 className="py-5">
             <Link href="../footer2/signin">
               <a>アカウントの作成について</a>
@@ -105,7 +105,7 @@ const Footer = () => (
           <a>各種規約</a>
         </Link>
       </h4>
-      <h5 className="px-5">©️2022 Amazoness.inc</h5>
+      <h5 className="px-5">©️2022 当サイト.inc</h5>
     </div>
   </>
 );

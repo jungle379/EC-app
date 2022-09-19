@@ -74,7 +74,7 @@ const Mypage = () => (
               <Link href="/">Audible設定</Link>
             </div>
             <div className="text-blue-300 hover:text-red-500 hover:underline">
-              <Link href="/">Amazoness Driveの管理</Link>
+              <Link href="/">当サイト Driveの管理</Link>
             </div>
             <div className="text-blue-300 hover:text-red-500 hover:underline">
               <Link href="/">アプリライブラリと端末の管理</Link>
