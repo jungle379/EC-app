@@ -1,7 +1,9 @@
 import { TextInput, Checkbox, Button, Group, Box } from "@mantine/core";
 import { useForm } from "@mantine/form";
+import { useRouter } from "next/router";
 
 function Mailer() {
+  const router = useRouter();
   const form = useForm({
     initialValues: {
       email: "",
@@ -26,12 +28,14 @@ function Mailer() {
 
           <Checkbox
             mt="md"
-            label="I agree to sell my privacy"
+            label="上記内容で問い合わせします"
             {...form.getInputProps("termsOfService", { type: "checkbox" })}
           />
 
           <Group position="right" mt="md">
-            <Button type="submit">Submit</Button>
+            <Button onClick={() => router.push("../footer2/end")} type="submit">
+              送信する
+            </Button>
           </Group>
         </form>
       </Box>
