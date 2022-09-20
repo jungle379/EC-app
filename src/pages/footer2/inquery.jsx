@@ -1,7 +1,7 @@
 import Head from "next/head";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Mailer from "../components/Mailform";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import Mailer from "../../components/Mailform";
 import { Textarea, Select } from "@mantine/core";
 
 const Inquery = () => (

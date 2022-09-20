@@ -18,7 +18,7 @@ const Footer = () => (
             </Link>
           </h2>
           <h3 className="py-5">
-            <Link href="/footer2/company">
+            <Link href="../footer2/company">
               <a>会社概要</a>
             </Link>
           </h3>
@@ -59,7 +59,7 @@ const Footer = () => (
             </Link>
           </h3>
           <h4 className="py-5">
-            <Link href="../inquery">
+            <Link href="../footer2/inquery">
               <a>各種お問い合わせ</a>
             </Link>
           </h4>
@@ -67,17 +67,17 @@ const Footer = () => (
         <div className="">
           <h1 className="text-2xl py-5">ヘルプ＆ガイド</h1>
           <h2 className="py-5">
-            <Link href="/footer2/site">
+            <Link href="../footer2/site">
               <a>サイトガイド</a>
             </Link>
           </h2>
           <h3 className="py-5">
-            <Link href="/footer2/help">
+            <Link href="../footer2/help">
               <a>ヘルプ</a>
             </Link>
           </h3>
           <h4 className="py-5">
-            <Link href="/footer2/outside">
+            <Link href="../footer2/outside">
               <a>外部サイト</a>
             </Link>
           </h4>
@@ -86,26 +86,26 @@ const Footer = () => (
     </div>
     <div className="bg-gray-900 text-white flex justify-center h-[100px] py-10">
       <h1 className="px-5 border-r-2 border-r-white">
-        <Link href="../../footer/kiyaku">
+        <Link href="../footer/kiyaku">
           <a>利用規約</a>
         </Link>
       </h1>
       <h2 className="px-5 border-r-2 border-x-white">
-        <Link href="../../footer/privacy">
+        <Link href="../footer/privacy">
           <a>プライバシー規約</a>
         </Link>
       </h2>
       <h3 className="px-5 border-r-2 border-r-white">
-        <Link href="../../footer/personal">
+        <Link href="../footer/personal">
           <a>パーソナライズ広告規約</a>
         </Link>
       </h3>
       <h4 className="px-5 border-r-2 border-r-white">
-        <Link href="../../footer/others">
+        <Link href="../footer/others">
           <a>各種規約</a>
         </Link>
       </h4>
-      <h5 className="px-5">©️2022 当サイト.inc</h5>
+      <h5 className="px-5">©️2022 h_morino.inc</h5>
     </div>
   </>
 );
