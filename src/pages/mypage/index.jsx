@@ -125,8 +125,8 @@ const Mypage = () => (
           </div>
         </SimpleGrid>
       </div>
+      <Footer />
     </div>
-    <Footer />
   </>
 );
 
